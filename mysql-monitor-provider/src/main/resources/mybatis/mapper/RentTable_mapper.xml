@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mysql.mointor.dao.RentDao" ><!-- 这里一定要是接口的包名+接口名 -->
+    <resultMap id="RentResultMap" type="com.mysql.mointor.domain.RentTable" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="h_name" property="h_name" jdbcType="VARCHAR" />
+        <result column="h_address" property="h_address" jdbcType="VARCHAR" />
+        <result column="h_province" property="h_province" jdbcType="VARCHAR" />
+        <result column="h_city" property="h_city" jdbcType="VARCHAR" />
+        <result column="h_qu" property="h_qu" jdbcType="VARCHAR" />
+        <result column="h_address_detail" property="h_address_detail" jdbcType="VARCHAR" />
+        <result column="h_price" property="h_price" jdbcType="BIGINT" />
+        <result column="h_home_count" property="h_home_count" jdbcType="VARCHAR" />
+        <result column="h_beizhu" property="h_beizhu" jdbcType="VARCHAR" />
+        <result column="h_desc" property="h_desc" jdbcType="VARCHAR" />
+        <result column="h_phone" property="h_phone" jdbcType="VARCHAR" />
+        <result column="h_create_time" property="h_create_time" jdbcType="VARCHAR" />
+        <result column="h_end_time" property="h_end_time" jdbcType="VARCHAR" />
+        <result column="h_hight" property="h_hight" jdbcType="VARCHAR" />
+        <result column="h_is_new" property="h_is_new"  jdbcType="BIGINT" />
+        <result column="h_type" property="h_type" jdbcType="BIGINT" />
+        <result column="h_state" property="h_state"  jdbcType="BIGINT" />
+        <result column="user_id" property="user_id" jdbcType="BIGINT" />
+        <result column="user_name" property="user_name" jdbcType="VARCHAR" />
+        <result column="user_phone" property="user_phone" jdbcType="VARCHAR" />
+        <result column="c_id" property="c_id" jdbcType="BIGINT" />
+        <result column="h_pic" property="h_pic" jdbcType="VARCHAR" />
+        <result column="h_space" property="h_space" jdbcType="VARCHAR" />
+        <result column="h_small_pic" property="h_small_pic" jdbcType="VARCHAR" />
+    </resultMap>
+
+
+    <sql id="Base_Column_List" >
+        id,h_name,h_address,h_province,h_city,h_qu,
+        h_address_detail,h_price,h_home_coun,
+        h_beizhu,h_desc,h_phone,h_create_time,h_end_time, 	
+		h_hight,h_is_new,h_type,h_state,user_id,user_name,
+		user_phone,c_id,h_pic,h_space,h_small_pic
+    </sql>
+
+
+    <insert id="addRent" parameterType="com.mysql.mointor.domain.RentTable" >
+       INSERT INTO 
+            rent
+            (
+            	id,
+            	h_name,
+            	h_address,
+            	h_province,
+            	h_city,
+            	h_qu,
+        	 	h_address_detail,
+        	 	h_price,
+        	 	h_home_count,
+        		h_beizhu,
+        		h_desc,
+        		h_phone,
+        		h_create_time,
+        		h_end_time, 	
+				h_hight,
+				h_is_new,
+				h_type,
+				h_state,
+				user_id,
+				user_name,
+				user_phone,
+				c_id,
+				h_pic,
+				h_space,
+				h_small_pic
+			) 
+        VALUES
+            (
+            	#{id},
+				#{h_name} ,
+				#{h_address} ,
+				#{h_province} ,
+				#{h_city} ,
+				#{h_qu} ,
+				#{h_address_detail} ,
+				#{h_price} ,
+				#{h_home_count} ,
+				#{h_beizhu} ,
+				#{h_desc},
+				#{h_phone} ,
+				#{h_create_time} ,
+				#{h_end_time} ,
+				#{h_hight},
+				#{h_is_new},
+				#{h_type},
+				#{h_state} ,
+				#{user_id},
+				#{user_name},
+				#{user_phone} ,
+				#{c_id} ,
+				#{h_pic} ,
+				#{h_space},
+				#{h_small_pic}
+            	
+            )
+    </insert>
+
+
+    
+    <select id="getAllRentByAdmin" parameterType="com.mysql.mointor.domain.UserTable" resultMap="RentResultMap" >
+		select * from rent 
+	</select>
+	
+  	<select id="getAllRent" parameterType="com.mysql.mointor.domain.UserTable" resultMap="RentResultMap" >
+		select * from rent 
+	</select>
+    
+	<select id="getAllRentByUser" parameterType="com.mysql.mointor.domain.UserTable" resultMap="RentResultMap" >
+		select * from rent r where r.user_id=#{user_id}
+	</select>
+	
+	<select id="getRentById" parameterType="int"  resultMap="RentResultMap" >
+		select * from rent where id=#{id}
+	</select>
+	
+	<select id="searchRentByConditionc1" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+		select * from rent r where   r.h_province=#{h_province}  and r.h_city=#{h_city}  and r.h_qu=#{h_qu}
+	</select>
+	<select id="searchRentByConditionc2" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+		select * from rent r where  r.h_province=#{h_province}  and r.h_city=#{h_city}  and r.h_qu=#{h_qu} and   r.h_type=#{h_type}   
+	</select>
+	<select id="searchRentByConditionc3" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+		select * from rent r where  r.h_province=#{h_province}  and r.h_city=#{h_city}  and r.h_qu=#{h_qu} and r.h_price>#{minPrice}   and   #{maxPrice}>r.h_price  
+	</select>
+	<select id="searchRentByConditionc4" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+		select * from rent r where  r.h_province=#{h_province}  and r.h_city=#{h_city}  and r.h_qu=#{h_qu} and r.h_price>#{minPrice}   and   #{maxPrice}>r.h_price and   r.h_type=#{h_type}   
+	</select>
+	
+	
+	<select id="searchRentByConditionc5" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+		select * from rent 
+	</select>
+	<select id="searchRentByConditionc6" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+		select * from rent r where  r.h_type=#{h_type}   
+	</select>
+	<select id="searchRentByConditionc7" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+		select * from rent r where  r.h_price>#{minPrice}   and   #{maxPrice}>r.h_price 
+	</select>
+	<select id="searchRentByConditionc8" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+		select * from rent r where  r.h_price>#{minPrice}   and   #{maxPrice}>r.h_price and  r.h_type=#{h_type}   
+	</select>
+	
+	<select id="getRentByHstate" parameterType="int"  resultMap="RentResultMap" >
+		select * from rent r where   r.h_state=#{h_state}  
+	</select>
+	
+	
+	<update id="updateRentPhoto" parameterType="Map" >
+  		update  rent set h_pic=#{h_pic},h_small_pic=#{h_small_pic} where id=#{id}
+  	</update>
+	<update id="updateRentById" parameterType="com.mysql.mointor.domain.RentTable" >
+  		update rent
+       		 set
+            	h_name=#{h_name} ,
+            	h_address=#{h_address} ,
+            	h_province=#{h_province} ,
+            	h_city=#{h_city} ,
+            	h_qu=#{h_qu} ,
+        	 	h_address_detail=#{h_address_detail} ,
+        	 	h_price=#{h_price} ,
+        	 	h_home_count=#{h_home_count} ,
+        		h_beizhu=#{h_beizhu} ,
+        		h_desc=#{h_desc},
+        		h_phone=#{h_phone} ,
+        		h_create_time=#{h_create_time} ,
+        		h_end_time=#{h_end_time} ,
+				h_hight=#{h_hight},
+				h_is_new=#{h_is_new},
+				h_type=#{h_type},
+				h_state=#{h_state} ,
+				user_id=#{user_id},
+				user_name=#{user_name},
+				user_phone=#{user_phone} ,
+				h_space= #{h_space}
+			where 
+				id=#{id}
+  	</update>
+	
+	
+	
+  	<delete id="deleteRentById" parameterType="int" >
+  		delete from   rent  where id=#{id}
+  	</delete>
+  
+  
+</mapper>

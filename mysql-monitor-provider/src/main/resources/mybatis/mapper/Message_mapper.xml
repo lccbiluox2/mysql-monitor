@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.mysql.mointor.dao.MessageDao" >
+    <resultMap id="MessageResultMap" type="com.mysql.mointor.domain.MessageTable" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="m_content" property="m_content" jdbcType="VARCHAR" />
+        <result column="create_time" property="create_time" jdbcType="VARCHAR" />
+        <result column="user_id" property="user_id" jdbcType="BIGINT" />
+        <result column="user_name" property="user_name" jdbcType="VARCHAR" />
+        <result column="id_check" property="id_check" jdbcType="BIGINT" />
+      
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, 			
+		m_content ,	
+		user_id ,	
+		user_name ,	
+		create_time ,
+		id_check	
+
+    </sql>
+
+    
+    <insert id="addMesage" parameterType="com.mysql.mointor.domain.MessageTable" >
+       INSERT INTO 
+            message
+            (
+            	 	id, 			
+					m_content ,	
+					user_id ,	
+					user_name ,	
+					create_time ,
+					id_check	
+			) 
+        VALUES
+            (
+            	#{id 			  },
+				#{m_content 	  },
+				#{user_id 	      },
+				#{user_name 	  },
+				#{create_time     },
+				2
+            	
+            )
+    </insert>
+    
+    
+    
+    <update id="updateMessageById" parameterType="com.mysql.mointor.domain.MessageTable" >
+  		update message
+       		 set
+				m_content 		=   #{m_content 	  },
+				user_id 		=   #{user_id 	      },
+				user_name 		=   #{user_name 	  },
+				create_time 	=   #{create_time     },
+				id_check		=   #{id_check	      }
+			where 
+				id=#{id}
+  	</update>
+	
+	<update id="updateMessageCheckById" parameterType="int" >
+  		update message
+       		 set
+				id_check		=  1
+			where 
+				id=#{id}
+  	</update>
+  	
+  	<update id="deleteMessageById" parameterType="int" >
+  		update message
+       		 set
+				id_check		=  3
+			where 
+				id=#{id}
+  	</update>
+  	
+  	
+  	
+	
+	
+    <select id="getAllMessageCount" resultType="java.lang.Integer"  >
+		select count(*) from message where id_check=1
+	</select>
+	
+	 <select id="getAllMessageCountNoCheck" resultType="java.lang.Integer"  >
+		select count(*) from message 
+	</select>
+    
+    <select id="getAllMessageList"   parameterType="Map"  resultMap="MessageResultMap" >
+		select * from message where id_check=1 order by id desc limit #{lastItem},#{pagesize}  
+	</select>
+	
+	<select id="getAllMessageListNoCheck"   parameterType="Map"  resultMap="MessageResultMap" >
+		select * from message  order by id desc limit #{lastItem},#{pagesize}  
+	</select>
+	
+    
+    
+    
+    <delete id="delMessageById" parameterType="int" >
+  		delete from   message  where id=#{id}
+  	</delete>
+    
+     <delete id="delMessageByCheckEquals3"  >
+  		delete from   message   where id_check=3 
+  	</delete>
+    
+    
+</mapper>

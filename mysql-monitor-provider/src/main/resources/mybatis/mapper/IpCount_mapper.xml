@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.mysql.mointor.dao.IpcountBeanDao" >
+    <resultMap id="ResultMap" type="com.mysql.mointor.domain.IpcountBean" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="ip" property="ip" jdbcType="VARCHAR" />
+        <result column="url" property="url" jdbcType="VARCHAR" />
+        <result column="time" property="time" jdbcType="VARCHAR" />
+        <result column="year" property="year" jdbcType="VARCHAR" />
+        <result column="month" property="month" jdbcType="VARCHAR" />
+        <result column="day" property="day" jdbcType="VARCHAR" />
+    </resultMap>
+
+
+	<resultMap id="ipQueryResultMap" type="com.mysql.mointor.query.IpBrokenLineQuery" >
+        <result column="mycount" property="mycount" jdbcType="BIGINT" />
+        <result column="year" property="year" jdbcType="VARCHAR" />
+        <result column="month" property="month" jdbcType="VARCHAR" />
+        <result column="day" property="day" jdbcType="VARCHAR" />
+        <result column="time" property="time" jdbcType="VARCHAR" />
+    </resultMap>
+
+    
+    <insert id="addIpCount" parameterType="com.mysql.mointor.domain.IpcountBean" >
+       INSERT INTO 
+            ipcount
+            (
+            	 	id, 			
+					ip ,	
+					url ,	
+					time ,
+					year,	
+					month,
+					day
+			) 
+        VALUES
+            (
+            	#{id 			  },
+				#{ip		 	  },
+				#{url 	     	  },
+				#{time		 	  },
+				#{year		 	  },
+				#{month		 	  },
+				#{day		 	  }
+            	
+            )
+    </insert>
+    
+    <select id="getCountByIp" parameterType="map"  resultMap="ipQueryResultMap" >
+		SELECT COUNT(*) AS mycount,year,month,day FROM ipcount WHERE year=#{year} AND month=#{month} GROUP BY day
+	</select>
+    
+  
+    
+</mapper>
