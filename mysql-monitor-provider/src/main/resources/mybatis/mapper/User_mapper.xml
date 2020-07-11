@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
-<mapper namespace="com.mysql.mointor.dao.UserDao" >
-    <resultMap id="BaseResultMap" type="com.mysql.mointor.domain.UserTable" >
+<mapper namespace="com.neo.dao.UserDao" >
+    <resultMap id="BaseResultMap" type="com.neo.domain.UserTable" >
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="user_name" property="user_name" jdbcType="VARCHAR" />
         <result column="user_passwd" property="user_passwd" jdbcType="VARCHAR" />
@@ -16,7 +16,7 @@
 
     
     
-     <insert id="addUser" parameterType="com.mysql.mointor.domain.UserTable" >
+     <insert id="addUser" parameterType="com.neo.domain.UserTable" >
        INSERT INTO 
             user
             (

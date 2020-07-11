@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
-<mapper namespace="com.mysql.mointor.dao.MessageDao" >
-    <resultMap id="MessageResultMap" type="com.mysql.mointor.domain.MessageTable" >
+<mapper namespace="com.neo.dao.MessageDao" >
+    <resultMap id="MessageResultMap" type="com.neo.domain.MessageTable" >
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="m_content" property="m_content" jdbcType="VARCHAR" />
         <result column="create_time" property="create_time" jdbcType="VARCHAR" />
@@ -22,7 +22,7 @@
     </sql>
 
     
-    <insert id="addMesage" parameterType="com.mysql.mointor.domain.MessageTable" >
+    <insert id="addMesage" parameterType="com.neo.domain.MessageTable" >
        INSERT INTO 
             message
             (
@@ -47,7 +47,7 @@
     
     
     
-    <update id="updateMessageById" parameterType="com.mysql.mointor.domain.MessageTable" >
+    <update id="updateMessageById" parameterType="com.neo.domain.MessageTable" >
   		update message
        		 set
 				m_content 		=   #{m_content 	  },

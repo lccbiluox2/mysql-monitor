@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mysql.mointor.dao.RentDao" ><!-- 这里一定要是接口的包名+接口名 -->
-    <resultMap id="RentResultMap" type="com.mysql.mointor.domain.RentTable" >
+<mapper namespace="com.neo.dao.RentDao" ><!-- 这里一定要是接口的包名+接口名 -->
+    <resultMap id="RentResultMap" type="com.neo.domain.RentTable" >
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="h_name" property="h_name" jdbcType="VARCHAR" />
         <result column="h_address" property="h_address" jdbcType="VARCHAR" />
@@ -39,7 +39,7 @@
     </sql>
 
 
-    <insert id="addRent" parameterType="com.mysql.mointor.domain.RentTable" >
+    <insert id="addRent" parameterType="com.neo.domain.RentTable" >
        INSERT INTO 
             rent
             (
@@ -102,15 +102,15 @@
 
 
     
-    <select id="getAllRentByAdmin" parameterType="com.mysql.mointor.domain.UserTable" resultMap="RentResultMap" >
+    <select id="getAllRentByAdmin" parameterType="com.neo.domain.UserTable"  resultMap="RentResultMap" >
 		select * from rent 
 	</select>
 	
-  	<select id="getAllRent" parameterType="com.mysql.mointor.domain.UserTable" resultMap="RentResultMap" >
+  	<select id="getAllRent" parameterType="com.neo.domain.UserTable"  resultMap="RentResultMap" >
 		select * from rent 
 	</select>
     
-	<select id="getAllRentByUser" parameterType="com.mysql.mointor.domain.UserTable" resultMap="RentResultMap" >
+	<select id="getAllRentByUser" parameterType="com.neo.domain.UserTable"  resultMap="RentResultMap" >
 		select * from rent r where r.user_id=#{user_id}
 	</select>
 	
@@ -118,30 +118,30 @@
 		select * from rent where id=#{id}
 	</select>
 	
-	<select id="searchRentByConditionc1" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+	<select id="searchRentByConditionc1" parameterType="com.neo.domain.RentTable"  resultMap="RentResultMap" >
 		select * from rent r where   r.h_province=#{h_province}  and r.h_city=#{h_city}  and r.h_qu=#{h_qu}
 	</select>
-	<select id="searchRentByConditionc2" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+	<select id="searchRentByConditionc2" parameterType="com.neo.domain.RentTable"  resultMap="RentResultMap" >
 		select * from rent r where  r.h_province=#{h_province}  and r.h_city=#{h_city}  and r.h_qu=#{h_qu} and   r.h_type=#{h_type}   
 	</select>
-	<select id="searchRentByConditionc3" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+	<select id="searchRentByConditionc3" parameterType="com.neo.domain.RentTable"  resultMap="RentResultMap" >
 		select * from rent r where  r.h_province=#{h_province}  and r.h_city=#{h_city}  and r.h_qu=#{h_qu} and r.h_price>#{minPrice}   and   #{maxPrice}>r.h_price  
 	</select>
-	<select id="searchRentByConditionc4" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+	<select id="searchRentByConditionc4" parameterType="com.neo.domain.RentTable"  resultMap="RentResultMap" >
 		select * from rent r where  r.h_province=#{h_province}  and r.h_city=#{h_city}  and r.h_qu=#{h_qu} and r.h_price>#{minPrice}   and   #{maxPrice}>r.h_price and   r.h_type=#{h_type}   
 	</select>
 	
 	
-	<select id="searchRentByConditionc5" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+	<select id="searchRentByConditionc5" parameterType="com.neo.domain.RentTable"  resultMap="RentResultMap" >
 		select * from rent 
 	</select>
-	<select id="searchRentByConditionc6" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+	<select id="searchRentByConditionc6" parameterType="com.neo.domain.RentTable"  resultMap="RentResultMap" >
 		select * from rent r where  r.h_type=#{h_type}   
 	</select>
-	<select id="searchRentByConditionc7" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+	<select id="searchRentByConditionc7" parameterType="com.neo.domain.RentTable"  resultMap="RentResultMap" >
 		select * from rent r where  r.h_price>#{minPrice}   and   #{maxPrice}>r.h_price 
 	</select>
-	<select id="searchRentByConditionc8" parameterType="com.mysql.mointor.domain.RentTable" resultMap="RentResultMap" >
+	<select id="searchRentByConditionc8" parameterType="com.neo.domain.RentTable"  resultMap="RentResultMap" >
 		select * from rent r where  r.h_price>#{minPrice}   and   #{maxPrice}>r.h_price and  r.h_type=#{h_type}   
 	</select>
 	
@@ -153,7 +153,7 @@
 	<update id="updateRentPhoto" parameterType="Map" >
   		update  rent set h_pic=#{h_pic},h_small_pic=#{h_small_pic} where id=#{id}
   	</update>
-	<update id="updateRentById" parameterType="com.mysql.mointor.domain.RentTable" >
+	<update id="updateRentById" parameterType="com.neo.domain.RentTable" >
   		update rent
        		 set
             	h_name=#{h_name} ,

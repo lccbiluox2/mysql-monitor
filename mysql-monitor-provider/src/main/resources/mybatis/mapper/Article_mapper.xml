@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neo.dao.ArticleDao">
+
+    <resultMap id="ResultMap" type="com.neo.entity.Article">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="title" property="title" jdbcType="VARCHAR"/>
+        <result column="ctime" property="ctime" jdbcType="VARCHAR"/>
+        <result column="mtime" property="mtime" jdbcType="VARCHAR"/>
+        <result column="category" property="categoryId" jdbcType="VARCHAR"/>
+        <result column="address" property="address" jdbcType="VARCHAR"/>
+        <result column="content_id" property="contentId" jdbcType="BIGINT"/>
+        <result column="content" property="content" jdbcType="VARCHAR"/>
+        <result column="digest" property="digest" jdbcType="VARCHAR"/>
+        <result column="articleType" property="articleType" jdbcType="VARCHAR"/>
+        <result column="modality" property="modality" jdbcType="VARCHAR"/>
+        <result column="saveMethod" property="saveMethod" jdbcType="VARCHAR"/>
+        <result column="keys" property="keys" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id" parameterType="com.neo.entity.Article">
+        insert into article (
+        <trim suffix="" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="title != null">
+                title,
+            </if>
+            <if test="ctime != null">
+                ctime,
+            </if>
+            <if test="mtime != null">
+                mtime,
+            </if>
+            <if test="categoryId != null">
+                category,
+            </if>
+            <if test="address != null">
+                address,
+            </if>
+            <if test="digest != null">
+                digest,
+            </if>
+            <if test="articleType != null">
+                articleType,
+            </if>
+            <if test="modality != null">
+                modality,
+            </if>
+            <if test="saveMethod != null">
+                saveMethod,
+            </if>
+            <if test="content != null">
+                content,
+            </if>
+            <if test="keys != null">
+                keys,
+            </if>
+        </trim>
+        )
+        values (
+        <trim suffix="" suffixOverrides=",">
+            <if test="id != null">
+                #{id},
+            </if>
+            <if test="title != null">
+                #{title},
+            </if>
+            <if test="ctime != null">
+                #{ctime},
+            </if>
+            <if test="mtime != null">
+                #{mtime},
+            </if>
+            <if test="categoryId != null">
+                #{categoryId},
+            </if>
+            <if test="address != null">
+                #{address},
+            </if>
+            <if test="digest != null">
+                #{digest},
+            </if>
+            <if test="articleType != null">
+                #{articleType},
+            </if>
+            <if test="modality != null">
+                #{modality},
+            </if>
+            <if test="saveMethod != null">
+                #{saveMethod},
+            </if>
+            <if test="content != null">
+                #{content},
+            </if>
+            <if test="keys != null">
+                #{keys},
+            </if>
+        </trim>
+        )
+
+    </insert>
+
+    <select id="getArticleByName" parameterType="map" resultMap="ResultMap">
+		SELECT * from article where title=#{newFileName}
+	</select>
+
+    <select id="getArticleByCateId" parameterType="int" resultMap="ResultMap">
+		SELECT * from article where category=#{category}
+	</select>
+
+    <select id="getArticleById" parameterType="int" resultMap="ResultMap">
+		SELECT * from article where id=#{id}
+	</select>
+
+
+    <select id="getArticleLikeName" parameterType="string" resultMap="ResultMap">
+		SELECT * from article where title like '%${title}%'
+	</select>
+
+
+    <select id="selectCount" resultType="com.neo.entity.dao.ArticleCount">
+		SELECT category,COUNT(category) as count FROM article GROUP BY category
+	</select>
+
+
+    <update id="setContentId" parameterType="int">
+		update article set content_id=#{contentId} where id=#{id}
+	</update>
+
+    <!--更新文章-->
+    <update id="updateArticle" parameterType="com.neo.entity.Article">
+        update article
+        <set>
+            <trim suffix="" suffixOverrides=",">
+                <if test="title != null">
+                    title = #{title},
+                </if>
+                <if test="ctime != null">
+                    ctime = #{ctime},
+                </if>
+                <if test="mtime != null">
+                    mtime = #{mtime},
+                </if>
+                <if test="categoryId != null">
+                    category = #{categoryId},
+                </if>
+                <if test="address != null">
+                    address = #{address},
+                </if>
+                <if test="digest != null">
+                    digest = #{digest},
+                </if>
+                <if test="articleType != null">
+                    articleType = #{articleType},
+                </if>
+                <if test="modality != null">
+                    modality = #{modality},
+                </if>
+                <if test="saveMethod != null">
+                    saveMethod = #{saveMethod},
+                </if>
+                <if test="keys != null">
+                    keys = #{keys},
+                </if>
+            </trim>
+        </set>
+        where id = #{id}
+    </update>
+
+</mapper>

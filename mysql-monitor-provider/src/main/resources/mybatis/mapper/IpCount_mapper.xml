@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
-<mapper namespace="com.mysql.mointor.dao.IpcountBeanDao" >
-    <resultMap id="ResultMap" type="com.mysql.mointor.domain.IpcountBean" >
+<mapper namespace="com.neo.dao.IpcountBeanDao" >
+    <resultMap id="ResultMap" type="com.neo.domain.IpcountBean" >
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="ip" property="ip" jdbcType="VARCHAR" />
         <result column="url" property="url" jdbcType="VARCHAR" />
@@ -12,7 +12,7 @@
     </resultMap>
 
 
-	<resultMap id="ipQueryResultMap" type="com.mysql.mointor.query.IpBrokenLineQuery" >
+	<resultMap id="ipQueryResultMap" type="com.neo.query.IpBrokenLineQuery" >
         <result column="mycount" property="mycount" jdbcType="BIGINT" />
         <result column="year" property="year" jdbcType="VARCHAR" />
         <result column="month" property="month" jdbcType="VARCHAR" />
@@ -21,7 +21,7 @@
     </resultMap>
 
     
-    <insert id="addIpCount" parameterType="com.mysql.mointor.domain.IpcountBean" >
+    <insert id="addIpCount" parameterType="com.neo.domain.IpcountBean" >
        INSERT INTO 
             ipcount
             (

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neo.dao.CategoryMapDao" >
+
+    <resultMap id="ResultMap" type="com.neo.entity.CategoryMap" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="doc_name" property="docName" jdbcType="VARCHAR" />
+        <result column="cate_name" property="cateName" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <!--<insert id="addIpCount" parameterType="com.neo.domain.IpcountBean" >-->
+       <!--INSERT INTO-->
+            <!--ipcount-->
+            <!--(-->
+            	 	<!--id,-->
+					<!--ip ,-->
+					<!--url ,-->
+					<!--time ,-->
+					<!--year,-->
+					<!--month,-->
+					<!--day-->
+			<!--)-->
+        <!--VALUES-->
+            <!--(-->
+            	<!--#{id 			  },-->
+				<!--#{ip		 	  },-->
+				<!--#{url 	     	  },-->
+				<!--#{time		 	  },-->
+				<!--#{year		 	  },-->
+				<!--#{month		 	  },-->
+				<!--#{day		 	  }-->
+
+            <!--)-->
+    <!--</insert>-->
+
+    <select id="getList" parameterType="map"  resultMap="ResultMap" >
+		SELECT * from category_map
+	</select>
+
+
+
+</mapper>
