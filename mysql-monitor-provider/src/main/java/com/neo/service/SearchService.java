@@ -9,5 +9,5 @@ public interface SearchService {
 
 
 
-    List<Article> search(SearchText searchText);
+//    List<Article> search(SearchText searchText);
 }

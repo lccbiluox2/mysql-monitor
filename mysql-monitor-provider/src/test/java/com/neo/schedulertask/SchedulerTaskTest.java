@@ -13,14 +13,14 @@ import static org.junit.Assert.*;
 import static org.junit.Assert.*;
 
 public class SchedulerTaskTest extends BaseTest {
-
-    @Autowired
-    private SchedulerTask schedulerTask;
-
-    @Test
-    public void initArticle() {
-        FileUtils.getFiles("/Users/lcc/IdeaProjects/docs");
-        List<File> files = FileUtils.getFiles();
-        schedulerTask.initArticle(files);
-    }
+//
+//    @Autowired
+//    private SchedulerTask schedulerTask;
+//
+//    @Test
+//    public void initArticle() {
+//        FileUtils.getFiles("/Users/lcc/IdeaProjects/docs");
+//        List<File> files = FileUtils.getFiles();
+//        schedulerTask.initArticle(files);
+//    }
 }

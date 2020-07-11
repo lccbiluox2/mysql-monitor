@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 @SpringBootApplication
 @EnableScheduling			//添加定时任务
 @MapperScan("com.neo.dao")  //@MapperScan("com.neo.mapper") 这个注解如果没有 dao接口就无法直接调用*-mapper.xml中的sql
-public class BlogApplication {
+public class MySQLMointorApplication {
 
 	
 	//代码块初始化log4j日志
@@ -28,7 +28,7 @@ public class BlogApplication {
 	      try{
 	          //初始化log4j
 	    	  //String filePath=root+"WEB-INF" + File.separator+"config"+File.separator+"log4j.properties"; 
-	          String log4jPath = BlogApplication.class.getClassLoader().getResource("").getPath()+"log4j.properties";
+	          String log4jPath = MySQLMointorApplication.class.getClassLoader().getResource("").getPath()+"log4j.properties";
 	          System.out.println("初始化Log4j。。。。");
 	          System.out.println("path is "+ log4jPath);
 	          PropertyConfigurator.configure(log4jPath);
@@ -74,7 +74,8 @@ public class BlogApplication {
 
 	
 	public static void main(String[] args) {
-		SpringApplication.run(BlogApplication.class, args);
+		// 主类
+		SpringApplication.run(MySQLMointorApplication.class, args);
 	}
 	
 	

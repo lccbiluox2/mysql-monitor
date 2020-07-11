@@ -18,7 +18,6 @@
     <url>http://maven.apache.org</url>
 
 
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -40,136 +39,141 @@
 
     </properties>
 
-    <dependencies>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>log4j-over-slf4j</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <!--  spring boot 引入velocity模板
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-velocity</artifactId>
-        </dependency>-->
-
-        <!-- 引入freeMarker的依赖包. -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
-        </dependency>
-
-        <!-- 引入log4j的依赖包. 忽略spring boot自带的日志   <artifactId>spring-boot-starter-logging</artifactId> -->
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-log4j -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j</artifactId>
-            <version>1.3.8.RELEASE</version>
-        </dependency>
+    <dependencyManagement>
 
 
-        <!-- 引用mybatis操作数据库 -->
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>1.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
+        <dependencies>
+
+            <!--<dependency>-->
+                <!--<groupId>junit</groupId>-->
+                <!--<artifactId>junit</artifactId>-->
+                <!--<version>3.8.1</version>-->
+            <!--</dependency>-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>log4j-over-slf4j</artifactId>
+                        <groupId>org.slf4j</groupId>
+                    </exclusion>
+
+                    <exclusion>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!--  spring boot 引入velocity模板
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-velocity</artifactId>
+            </dependency>-->
+
+            <!-- 引入freeMarker的依赖包. -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-freemarker</artifactId>
+            </dependency>
+
+            <!-- 引入log4j的依赖包. 忽略spring boot自带的日志   <artifactId>spring-boot-starter-logging</artifactId> -->
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-log4j -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-log4j</artifactId>
+                <version>1.3.8.RELEASE</version>
+            </dependency>
 
 
-        <!-- ToStringBuilder、HashCodeBuilder、EqualsBuilder、ToStringStyle、ReflectionToStringBuilder、
-        CompareToBuilder等这些类都是位于commons-lang.jar下面的，所以要使用这些类一定要导入commons-lang.jar。 -->
-        <!-- https://mvnrepository.com/artifact/org.andromda.thirdparty.jaxb2_commons/commons-lang-plugin -->
-        <dependency>
-            <groupId>org.andromda.thirdparty.jaxb2_commons</groupId>
-            <artifactId>commons-lang-plugin</artifactId>
-            <version>2.2</version>
-        </dependency>
+            <!-- 引用mybatis操作数据库 -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>1.1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.19</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <optional>true</optional>
+            </dependency>
 
-        <!-- 引入JSONArray.fromObject(u).toString();需要的包 -->
-        <!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
-        <dependency>
-            <groupId>net.sf.json-lib</groupId>
-            <artifactId>json-lib</artifactId>
-            <version>2.4</version>
-            <classifier>jdk15</classifier>
-        </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.4</version>
-        </dependency>
+            <!-- ToStringBuilder、HashCodeBuilder、EqualsBuilder、ToStringStyle、ReflectionToStringBuilder、
+            CompareToBuilder等这些类都是位于commons-lang.jar下面的，所以要使用这些类一定要导入commons-lang.jar。 -->
+            <!-- https://mvnrepository.com/artifact/org.andromda.thirdparty.jaxb2_commons/commons-lang-plugin -->
+            <dependency>
+                <groupId>org.andromda.thirdparty.jaxb2_commons</groupId>
+                <artifactId>commons-lang-plugin</artifactId>
+                <version>2.2</version>
+            </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-        <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
-        </dependency>
+            <!-- 引入JSONArray.fromObject(u).toString();需要的包 -->
+            <!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+            <dependency>
+                <groupId>net.sf.json-lib</groupId>
+                <artifactId>json-lib</artifactId>
+                <version>2.4</version>
+                <classifier>jdk15</classifier>
+            </dependency>
 
-        <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
-        <dependency>
-            <groupId>commons-fileupload</groupId>
-            <artifactId>commons-fileupload</artifactId>
-            <version>1.3.1</version>
-        </dependency>
+            <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.4</version>
+            </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
-        <dependency>
-            <groupId>org.jfree</groupId>
-            <artifactId>jfreechart</artifactId>
-            <version>1.0.19</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>5.2.5.RELEASE</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-test</artifactId>
-            <version>2.2.6.RELEASE</version>
-            <scope>test</scope>
-        </dependency>
+            <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+            <dependency>
+                <groupId>com.googlecode.json-simple</groupId>
+                <artifactId>json-simple</artifactId>
+                <version>1.1.1</version>
+            </dependency>
 
-    </dependencies>
+            <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>1.3.1</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+            <dependency>
+                <groupId>org.jfree</groupId>
+                <artifactId>jfreechart</artifactId>
+                <version>1.0.19</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>5.2.5.RELEASE</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-test</artifactId>
+                <version>2.2.6.RELEASE</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>28.1-jre</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>

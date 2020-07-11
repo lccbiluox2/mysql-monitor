@@ -19,18 +19,18 @@ import java.util.List;
 @RequestMapping("/searchController")
 public class SearchController {
 
-    @Autowired
-    private SearchService searchService;
-
-    /**
-     * 搜索栏搜索 博客
-     * @param searchText
-     * @return
-     */
-    @RequestMapping(value = "/search", method = RequestMethod.POST)
-    @ResponseBody
-    public DubboResult<List<Article>> search(@RequestBody SearchText searchText) {
-        List<Article> list = searchService.search(searchText);
-        return DubboResult.buildSuccessResult(list);
-    }
+//    @Autowired
+//    private SearchService searchService;
+//
+//    /**
+//     * 搜索栏搜索 博客
+//     * @param searchText
+//     * @return
+//     */
+//    @RequestMapping(value = "/search", method = RequestMethod.POST)
+//    @ResponseBody
+//    public DubboResult<List<Article>> search(@RequestBody SearchText searchText) {
+//        List<Article> list = searchService.search(searchText);
+//        return DubboResult.buildSuccessResult(list);
+//    }
 }

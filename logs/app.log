@@ -1,0 +1,1010 @@
+2020-07-11 10:26:22,139 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 10:26:23,030 INFO Starting Application on lcc with PID 17401 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 10:26:23,031 INFO No active profile set, falling back to default profiles: default
+2020-07-11 10:26:23,313 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 10:26:23,313 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 10:26:23,313 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 10:26:23,313 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 10:26:26,292 INFO Tomcat initialized with port(s): 8080 (http)
+2020-07-11 10:26:26,512 INFO Root WebApplicationContext: initialization completed in 3199 ms
+2020-07-11 10:26:27,519 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:26:28,077 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 10:26:28,127 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 10:26:28,179 INFO LiveReload server is running on port 35729
+2020-07-11 10:26:28,255 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-11 10:26:28,261 INFO Started Application in 6.462 seconds (JVM running for 8.591)
+2020-07-11 10:26:45,439 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 10:26:45,442 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:26:54,567 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 10:26:55,473 INFO Starting Application on lcc with PID 17444 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 10:26:55,480 INFO No active profile set, falling back to default profiles: default
+2020-07-11 10:26:55,673 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 10:26:55,681 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 10:26:55,681 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 10:26:55,681 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 10:26:58,723 INFO Tomcat initialized with port(s): 8080 (http)
+2020-07-11 10:26:58,876 INFO Root WebApplicationContext: initialization completed in 3194 ms
+2020-07-11 10:26:59,782 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:27:00,270 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 10:27:00,305 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 10:27:00,353 INFO LiveReload server is running on port 35729
+2020-07-11 10:27:00,450 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-11 10:27:00,461 INFO Started Application in 6.127 seconds (JVM running for 8.156)
+2020-07-11 10:32:05,241 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 10:32:05,245 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:32:12,705 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 10:32:13,225 INFO Starting Application on lcc with PID 17702 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 10:32:13,226 INFO No active profile set, falling back to default profiles: default
+2020-07-11 10:32:13,399 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 10:32:13,399 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 10:32:13,399 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 10:32:13,399 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 10:32:15,829 INFO Tomcat initialized with port(s): 8080 (http)
+2020-07-11 10:32:15,935 INFO Root WebApplicationContext: initialization completed in 2534 ms
+2020-07-11 10:32:16,557 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:32:16,987 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 10:32:17,018 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 10:32:17,063 INFO LiveReload server is running on port 35729
+2020-07-11 10:32:17,141 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-11 10:32:17,148 INFO Started Application in 4.625 seconds (JVM running for 6.08)
+2020-07-11 10:33:44,687 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 10:33:44,691 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:33:49,558 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 10:33:50,055 INFO Starting Application on lcc with PID 17793 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 10:33:50,056 INFO No active profile set, falling back to default profiles: default
+2020-07-11 10:33:50,224 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 10:33:50,225 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 10:33:50,225 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 10:33:50,225 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 10:33:52,528 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 10:33:52,633 INFO Root WebApplicationContext: initialization completed in 2407 ms
+2020-07-11 10:33:53,599 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:33:54,110 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 10:33:54,139 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 10:33:54,183 INFO LiveReload server is running on port 35729
+2020-07-11 10:33:54,261 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 10:33:54,267 INFO Started Application in 4.883 seconds (JVM running for 6.341)
+2020-07-11 10:33:57,724 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 10:33:57,740 INFO Completed initialization in 16 ms
+2020-07-11 10:35:16,569 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 10:35:16,572 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:37:55,450 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 10:37:56,272 INFO Starting BlogApplication on lcc with PID 18247 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 10:37:56,273 INFO No active profile set, falling back to default profiles: default
+2020-07-11 10:37:56,455 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 10:37:56,456 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 10:37:56,456 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 10:37:56,456 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 10:37:59,918 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 10:38:00,086 INFO Root WebApplicationContext: initialization completed in 3630 ms
+2020-07-11 10:38:01,872 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 10:38:02,012 INFO Adding welcome page template: index
+2020-07-11 10:38:02,533 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 10:38:02,671 INFO LiveReload server is running on port 35729
+2020-07-11 10:38:02,841 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 10:38:02,846 INFO Started BlogApplication in 7.666 seconds (JVM running for 9.404)
+2020-07-11 10:38:05,011 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 10:38:05,024 INFO Completed initialization in 13 ms
+2020-07-11 10:38:05,036 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:05,071 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:05,134 INFO HikariPool-1 - Starting...
+2020-07-11 10:38:05,136 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 10:38:05,502 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:05,512 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:05,657 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:05,678 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:05,927 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:05,939 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:06,138 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:06,162 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:06,312 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:06,321 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:06,475 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:06,478 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:06,576 INFO HikariPool-1 - Start completed.
+2020-07-11 10:38:06,789 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:06,795 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:07,061 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:07,066 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:38:09,681 INFO host#0:0:0:0:0:0:0:1#/article/getArticleByCate
+2020-07-11 10:38:09,685 INFO host#0:0:0:0:0:0:0:1#/article/getArticleByCate
+2020-07-11 10:38:12,385 INFO host#0:0:0:0:0:0:0:1#/article/getArticleByCate
+2020-07-11 10:38:12,387 INFO host#0:0:0:0:0:0:0:1#/article/getArticleByCate
+2020-07-11 10:41:00,829 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:41:00,834 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:43:50,951 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:43:50,957 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:43:52,006 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:43:52,009 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:44:09,631 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:44:09,638 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:44:10,929 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:44:10,934 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:45:17,998 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:45:18,004 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:46:30,136 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:46:30,150 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:49:47,937 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:49:47,952 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:49:54,318 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:49:54,321 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:51:57,923 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:51:57,938 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:52:22,724 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:52:22,729 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:53:40,482 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:53:40,492 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:55:22,837 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:55:22,843 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:55:34,943 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:55:34,952 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:56:31,236 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:56:31,246 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:56:50,518 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:56:50,523 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:57:34,174 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:57:34,186 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:58:05,055 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:58:05,059 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:58:22,689 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:58:22,696 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:58:58,168 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:58:58,175 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:59:07,734 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:59:07,740 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:59:26,263 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:59:26,270 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:59:54,062 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 10:59:54,066 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:00:35,516 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:00:35,522 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:00:49,873 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:00:49,879 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:01:06,422 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:01:06,428 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:02:26,812 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:02:26,817 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:02:45,359 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:02:45,363 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:00,598 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:00,603 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:08,402 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:08,406 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:19,838 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:19,841 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:56,105 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:56,119 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:58,292 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:03:58,299 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:04:12,840 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:04:12,844 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:04:28,696 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:04:28,705 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:05:32,852 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:05:32,860 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:06:12,134 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:06:12,140 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:06:22,990 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:06:22,997 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:07:00,149 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:07:00,152 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:07:40,633 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:07:40,645 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:08:24,470 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:08:24,478 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:08:25,843 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:08:25,846 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:08:27,254 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:08:27,262 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:09:02,374 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:09:02,380 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:09:03,656 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:09:03,659 INFO host#0:0:0:0:0:0:0:1#/category/list
+2020-07-11 11:09:20,387 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 11:09:20,389 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 11:09:20,392 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 11:09:20,404 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 13:43:53,108 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 13:43:53,948 INFO Starting MySQLMointorApplication on lcc with PID 24747 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 13:43:53,949 INFO No active profile set, falling back to default profiles: default
+2020-07-11 13:43:54,267 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 13:43:54,268 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 13:43:54,268 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 13:43:54,268 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 13:43:57,445 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 13:43:57,822 INFO Root WebApplicationContext: initialization completed in 3553 ms
+2020-07-11 13:43:58,934 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 13:43:59,622 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 13:43:59,673 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 13:43:59,737 INFO LiveReload server is running on port 35729
+2020-07-11 13:43:59,888 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 13:43:59,895 INFO Started MySQLMointorApplication in 6.978 seconds (JVM running for 8.64)
+2020-07-11 13:44:18,207 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 13:44:18,216 INFO Completed initialization in 8 ms
+2020-07-11 13:44:18,230 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:44:18,265 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:45:09,447 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 13:45:09,450 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 13:45:18,601 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 13:45:18,947 INFO Starting MySQLMointorApplication on lcc with PID 24830 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 13:45:18,948 INFO No active profile set, falling back to default profiles: default
+2020-07-11 13:45:19,153 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 13:45:19,153 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 13:45:19,154 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 13:45:19,154 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 13:45:21,566 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 13:45:21,667 INFO Root WebApplicationContext: initialization completed in 2511 ms
+2020-07-11 13:45:22,733 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 13:45:23,130 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 13:45:23,174 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 13:45:23,232 INFO LiveReload server is running on port 35729
+2020-07-11 13:45:23,300 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 13:45:23,305 INFO Started MySQLMointorApplication in 4.818 seconds (JVM running for 6.081)
+2020-07-11 13:45:25,293 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 13:45:25,302 INFO Completed initialization in 8 ms
+2020-07-11 13:45:25,310 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:45:25,334 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:45:55,462 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 13:45:55,464 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 13:46:02,604 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 13:46:03,011 INFO Starting MySQLMointorApplication on lcc with PID 24876 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 13:46:03,012 INFO No active profile set, falling back to default profiles: default
+2020-07-11 13:46:03,309 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 13:46:03,310 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 13:46:03,310 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 13:46:03,310 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 13:46:06,121 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 13:46:06,227 INFO Root WebApplicationContext: initialization completed in 2917 ms
+2020-07-11 13:46:07,124 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 13:46:07,568 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 13:46:07,599 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 13:46:07,682 INFO LiveReload server is running on port 35729
+2020-07-11 13:46:07,763 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 13:46:07,770 INFO Started MySQLMointorApplication in 5.292 seconds (JVM running for 6.361)
+2020-07-11 13:46:08,691 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 13:46:08,698 INFO Completed initialization in 7 ms
+2020-07-11 13:46:08,707 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:46:08,730 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:46:08,852 INFO HikariPool-1 - Starting...
+2020-07-11 13:46:08,854 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 13:46:09,568 INFO HikariPool-1 - Start completed.
+2020-07-11 13:47:05,578 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 13:47:05,580 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 13:47:05,582 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 13:47:05,597 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 13:47:11,309 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 13:47:11,883 INFO Starting MySQLMointorApplication on lcc with PID 24936 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 13:47:11,888 INFO No active profile set, falling back to default profiles: default
+2020-07-11 13:47:12,037 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 13:47:12,037 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 13:47:12,037 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 13:47:12,039 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 13:47:14,937 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 13:47:15,111 INFO Root WebApplicationContext: initialization completed in 3071 ms
+2020-07-11 13:47:16,025 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 13:47:16,351 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 13:47:16,378 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 13:47:16,422 INFO LiveReload server is running on port 35729
+2020-07-11 13:47:16,494 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 13:47:16,501 INFO Started MySQLMointorApplication in 5.322 seconds (JVM running for 6.395)
+2020-07-11 13:47:20,361 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 13:47:20,368 INFO Completed initialization in 7 ms
+2020-07-11 13:47:20,375 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:47:20,398 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:47:20,505 INFO HikariPool-1 - Starting...
+2020-07-11 13:47:20,507 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 13:47:21,055 INFO HikariPool-1 - Start completed.
+2020-07-11 13:47:57,344 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:47:57,366 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:59:09,470 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:59:09,481 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:59:51,243 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 13:59:51,255 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:01:27,974 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:01:27,984 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:02:55,553 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 14:02:55,557 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:02:55,558 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 14:02:55,573 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 14:03:03,638 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 14:03:04,005 INFO Starting MySQLMointorApplication on lcc with PID 25736 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 14:03:04,008 INFO No active profile set, falling back to default profiles: default
+2020-07-11 14:03:04,133 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 14:03:04,134 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 14:03:04,134 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 14:03:04,134 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 14:03:06,746 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 14:03:06,848 INFO Root WebApplicationContext: initialization completed in 2714 ms
+2020-07-11 14:03:07,642 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:03:08,106 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 14:03:08,133 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 14:03:08,188 INFO LiveReload server is running on port 35729
+2020-07-11 14:03:08,276 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 14:03:08,283 INFO Started MySQLMointorApplication in 4.775 seconds (JVM running for 5.916)
+2020-07-11 14:03:11,567 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 14:03:11,576 INFO Completed initialization in 9 ms
+2020-07-11 14:03:11,584 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:03:11,609 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:03:11,711 INFO HikariPool-1 - Starting...
+2020-07-11 14:03:11,712 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 14:03:12,124 INFO HikariPool-1 - Start completed.
+2020-07-11 14:09:49,526 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:09:49,537 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:10:50,905 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:10:50,918 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:11:27,171 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:11:27,186 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:11:56,882 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 14:11:56,885 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:11:56,887 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 14:11:56,901 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 14:12:48,743 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 14:12:49,727 INFO Starting MySQLMointorApplication on lcc with PID 26222 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 14:12:49,731 INFO No active profile set, falling back to default profiles: default
+2020-07-11 14:12:49,967 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 14:12:49,968 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 14:12:49,969 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 14:12:49,970 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 14:12:52,508 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 14:12:52,682 INFO Root WebApplicationContext: initialization completed in 2711 ms
+2020-07-11 14:12:54,254 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:12:54,748 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 14:12:54,803 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 14:12:54,857 INFO LiveReload server is running on port 35729
+2020-07-11 14:12:54,943 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 14:12:54,953 INFO Started MySQLMointorApplication in 6.53 seconds (JVM running for 9.026)
+2020-07-11 14:12:58,797 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 14:12:58,808 INFO Completed initialization in 10 ms
+2020-07-11 14:12:58,819 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:12:58,850 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:13:01,404 INFO HikariPool-1 - Starting...
+2020-07-11 14:13:01,407 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 14:13:02,116 INFO HikariPool-1 - Start completed.
+2020-07-11 14:13:31,050 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:13:31,060 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:13:39,255 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:13:39,269 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:14:10,064 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:14:10,075 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:16:17,773 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:16:17,785 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:16:34,354 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:16:34,367 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:17:24,003 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:17:24,009 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:18:20,513 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:18:20,532 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:18:38,927 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:18:38,935 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:19:03,538 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:19:03,554 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:20:36,171 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:20:36,188 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:21:12,494 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:21:12,500 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:21:37,366 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:21:37,374 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:22:21,454 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:22:21,463 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:22:23,331 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:22:23,337 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:29:49,209 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 14:29:49,213 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:29:49,217 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 14:29:49,261 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 14:30:21,685 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 14:30:22,235 INFO Starting MySQLMointorApplication on lcc with PID 27114 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 14:30:22,236 INFO No active profile set, falling back to default profiles: default
+2020-07-11 14:30:22,487 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 14:30:22,488 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 14:30:22,488 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 14:30:22,488 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 14:30:25,113 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 14:30:25,227 INFO Root WebApplicationContext: initialization completed in 2738 ms
+2020-07-11 14:30:26,310 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:30:26,816 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 14:30:26,861 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 14:30:26,922 INFO LiveReload server is running on port 35729
+2020-07-11 14:30:27,003 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 14:30:27,016 INFO Started MySQLMointorApplication in 5.528 seconds (JVM running for 7.078)
+2020-07-11 14:30:47,107 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 14:30:47,117 INFO Completed initialization in 8 ms
+2020-07-11 14:30:47,128 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:30:47,157 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 14:30:47,425 INFO HikariPool-1 - Starting...
+2020-07-11 14:30:47,428 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 14:30:48,176 INFO HikariPool-1 - Start completed.
+2020-07-11 14:31:25,449 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:31:25,457 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:32:09,961 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 14:32:09,965 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:32:09,967 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 14:32:09,978 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 14:32:18,152 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 14:32:18,855 INFO Starting MySQLMointorApplication on lcc with PID 27215 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 14:32:18,856 INFO No active profile set, falling back to default profiles: default
+2020-07-11 14:32:19,106 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 14:32:19,106 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 14:32:19,107 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 14:32:19,107 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 14:32:21,985 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 14:32:22,139 INFO Root WebApplicationContext: initialization completed in 3032 ms
+2020-07-11 14:32:23,002 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:32:23,440 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 14:32:23,467 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 14:32:23,551 INFO LiveReload server is running on port 35729
+2020-07-11 14:32:23,650 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 14:32:23,655 INFO Started MySQLMointorApplication in 5.774 seconds (JVM running for 7.731)
+2020-07-11 14:32:51,002 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 14:32:51,013 INFO Completed initialization in 10 ms
+2020-07-11 14:32:51,026 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:32:51,061 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:32:51,113 INFO HikariPool-1 - Starting...
+2020-07-11 14:32:51,115 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 14:32:51,757 INFO HikariPool-1 - Start completed.
+2020-07-11 14:32:53,231 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:32:53,239 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:33:28,367 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:33:28,373 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:36:04,156 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:36:04,164 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:36:51,780 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:36:51,789 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:37:17,233 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:37:17,239 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:37:57,358 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:37:57,370 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:41:53,467 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:41:53,477 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:44:45,508 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 14:44:45,517 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:44:45,520 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 14:44:45,543 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 14:44:56,710 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 14:44:57,435 INFO Starting MySQLMointorApplication on lcc with PID 27865 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 14:44:57,437 INFO No active profile set, falling back to default profiles: default
+2020-07-11 14:44:57,744 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 14:44:57,745 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 14:44:57,747 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 14:44:57,749 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 14:45:00,516 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 14:45:00,654 INFO Root WebApplicationContext: initialization completed in 2905 ms
+2020-07-11 14:45:01,633 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:45:02,403 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 14:45:02,463 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 14:45:02,627 INFO LiveReload server is running on port 35729
+2020-07-11 14:45:02,713 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 14:45:02,720 INFO Started MySQLMointorApplication in 6.183 seconds (JVM running for 7.896)
+2020-07-11 14:45:34,729 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 14:45:34,749 INFO Completed initialization in 19 ms
+2020-07-11 14:45:34,772 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:45:34,828 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:45:34,906 INFO HikariPool-1 - Starting...
+2020-07-11 14:45:34,908 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 14:45:36,473 INFO HikariPool-1 - Start completed.
+2020-07-11 14:45:38,683 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:45:38,703 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:47:59,732 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 14:47:59,735 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:47:59,737 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 14:47:59,750 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 14:48:15,165 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 14:48:15,687 INFO Starting MySQLMointorApplication on lcc with PID 28037 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 14:48:15,689 INFO No active profile set, falling back to default profiles: default
+2020-07-11 14:48:15,983 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 14:48:15,984 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 14:48:15,984 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 14:48:15,984 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 14:48:18,694 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 14:48:18,860 INFO Root WebApplicationContext: initialization completed in 2875 ms
+2020-07-11 14:48:20,574 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 14:48:21,420 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 14:48:21,455 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 14:48:21,524 INFO LiveReload server is running on port 35729
+2020-07-11 14:48:21,602 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 14:48:21,608 INFO Started MySQLMointorApplication in 6.688 seconds (JVM running for 8.067)
+2020-07-11 14:48:25,028 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 14:48:25,041 INFO Completed initialization in 12 ms
+2020-07-11 14:48:25,058 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:48:25,099 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:48:25,267 INFO HikariPool-1 - Starting...
+2020-07-11 14:48:25,275 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 14:48:25,931 INFO HikariPool-1 - Start completed.
+2020-07-11 14:48:26,686 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:48:26,695 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:48:31,754 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:48:31,761 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:48:35,363 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:48:35,371 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:48:38,167 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:48:38,175 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:48:39,610 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:48:39,615 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:51:22,197 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:51:22,210 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:51:24,173 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:51:24,181 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:51:31,631 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:51:31,638 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:52:22,008 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:52:22,014 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:52:23,661 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:52:23,667 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:52:32,958 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:52:32,969 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:52:38,065 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:52:38,072 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:53:00,769 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:53:00,778 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:53:03,121 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:53:03,125 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:54:23,994 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:54:23,999 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:54:26,272 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:54:26,279 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:56:08,687 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:56:08,699 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:56:10,849 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:56:10,854 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:56:13,720 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:56:13,726 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:56:16,556 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:56:16,559 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:56:19,220 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:56:19,226 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:56:23,064 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:56:23,069 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:56:28,521 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:56:28,531 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:56:34,275 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:56:34,282 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:57:26,852 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:57:26,856 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:57:41,967 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:57:41,972 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:57:45,094 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:57:45,101 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:57:46,832 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:57:46,839 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 14:58:01,185 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:01,194 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:02,353 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:02,358 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:03,336 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:03,343 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:04,340 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:04,346 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:05,353 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:05,358 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:06,115 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:06,120 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:06,804 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:06,807 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:07,724 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:07,727 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:08,516 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:08,521 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:09,320 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 14:58:09,323 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 15:20:36,651 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 15:20:36,657 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 15:26:26,786 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 15:26:26,793 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 15:26:30,259 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 15:26:30,264 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 16:49:17,908 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 16:49:17,911 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 16:49:17,913 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 16:49:17,923 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 16:49:32,368 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 16:49:33,536 INFO Starting MySQLMointorApplication on lcc with PID 33646 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 16:49:33,544 INFO No active profile set, falling back to default profiles: default
+2020-07-11 16:49:33,803 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/activation.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb1-impl.jar
+2020-07-11 16:49:33,803 INFO The Class-Path manifest attribute in /Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-xjc-2.1.10.jar referenced one or more files that do not exist: file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jaxb-impl.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/jsr173_1.0_api.jar,file:/Users/lcc/soft/maven/repo/com/sun/xml/bind/jaxb-xjc/2.1.10/activation.jar
+2020-07-11 16:49:33,803 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-11 16:49:33,804 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-11 16:49:39,270 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 16:49:39,458 INFO Root WebApplicationContext: initialization completed in 5638 ms
+2020-07-11 16:49:41,001 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 16:49:41,839 WARN Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-11 16:49:41,882 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 16:49:41,986 INFO LiveReload server is running on port 35729
+2020-07-11 16:49:42,123 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 16:49:42,129 INFO Started MySQLMointorApplication in 10.098 seconds (JVM running for 13.462)
+2020-07-11 16:50:08,083 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 16:50:08,094 INFO Completed initialization in 10 ms
+2020-07-11 16:50:08,108 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 16:50:08,146 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 16:50:08,332 INFO HikariPool-1 - Starting...
+2020-07-11 16:50:08,335 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 16:50:08,923 INFO HikariPool-1 - Start completed.
+2020-07-11 16:50:44,492 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:50:44,498 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:51:23,278 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 16:51:23,284 INFO host#0:0:0:0:0:0:0:1#/database/add
+2020-07-11 16:51:28,464 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:51:28,468 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:51:57,966 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:51:57,974 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:13,530 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:13,535 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:35,251 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:35,257 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:54,430 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:54,437 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:55,343 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:55,352 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:55,576 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:55,579 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:55,807 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:52:55,810 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:53:03,227 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:53:03,233 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:53:15,860 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:53:15,865 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:53:50,119 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:53:50,123 INFO host#0:0:0:0:0:0:0:1#/database/list
+2020-07-11 16:54:00,700 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 16:54:00,703 INFO host#0:0:0:0:0:0:0:1#/database/delete
+2020-07-11 17:38:43,718 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 17:38:43,728 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 17:38:43,741 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 17:38:43,770 INFO HikariPool-1 - Shutdown completed.
+2020-07-11 18:04:01,327 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 18:04:02,733 INFO Starting MySQLMointorApplication on lcc with PID 37617 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 18:04:02,735 INFO No active profile set, falling back to default profiles: default
+2020-07-11 18:04:05,657 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 18:04:05,890 INFO Root WebApplicationContext: initialization completed in 2987 ms
+2020-07-11 18:04:06,083 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleController': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleServiceImpl': Unsatisfied dependency expressed through field 'articleDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/ArticleDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+2020-07-11 18:04:06,124 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-11 18:04:06,145 ERROR Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleController': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleServiceImpl': Unsatisfied dependency expressed through field 'articleDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/ArticleDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.neo.MySQLMointorApplication.main(MySQLMointorApplication.java:78)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleServiceImpl': Unsatisfied dependency expressed through field 'articleDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/ArticleDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 19 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/ArticleDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 32 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511)
+	... 43 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 56 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 70 more
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 71 more
+2020-07-11 18:07:45,974 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 18:07:46,692 INFO Starting MySQLMointorApplication on lcc with PID 37861 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 18:07:46,696 INFO No active profile set, falling back to default profiles: default
+2020-07-11 18:07:49,715 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 18:07:49,909 INFO Root WebApplicationContext: initialization completed in 2989 ms
+2020-07-11 18:07:50,114 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseController': Unsatisfied dependency expressed through field 'databaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseServiceImpl': Unsatisfied dependency expressed through field 'databaseDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/DatabaseDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+2020-07-11 18:07:50,140 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-11 18:07:50,164 ERROR Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseController': Unsatisfied dependency expressed through field 'databaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseServiceImpl': Unsatisfied dependency expressed through field 'databaseDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/DatabaseDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.neo.MySQLMointorApplication.main(MySQLMointorApplication.java:78)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseServiceImpl': Unsatisfied dependency expressed through field 'databaseDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/DatabaseDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 19 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/DatabaseDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 32 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511)
+	... 43 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 56 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 70 more
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 71 more
+2020-07-11 18:08:30,690 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 18:08:31,548 INFO Starting MySQLMointorApplication on lcc with PID 37905 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 18:08:31,550 INFO No active profile set, falling back to default profiles: default
+2020-07-11 18:08:35,013 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 18:08:35,380 INFO Root WebApplicationContext: initialization completed in 3570 ms
+2020-07-11 18:08:35,632 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseController': Unsatisfied dependency expressed through field 'databaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseServiceImpl': Unsatisfied dependency expressed through field 'databaseDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/DatabaseDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+2020-07-11 18:08:35,652 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-11 18:08:35,671 ERROR Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseController': Unsatisfied dependency expressed through field 'databaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseServiceImpl': Unsatisfied dependency expressed through field 'databaseDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/DatabaseDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.neo.MySQLMointorApplication.main(MySQLMointorApplication.java:78)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseServiceImpl': Unsatisfied dependency expressed through field 'databaseDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/DatabaseDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 19 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'databaseDao' defined in file [/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes/com/neo/dao/DatabaseDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1526)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 32 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1511)
+	... 43 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 56 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 70 more
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 71 more
+2020-07-11 18:09:29,603 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-11 18:09:31,236 INFO Starting MySQLMointorApplication on lcc with PID 37983 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-11 18:09:31,241 INFO No active profile set, falling back to default profiles: default
+2020-07-11 18:09:35,110 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-11 18:09:35,381 INFO Root WebApplicationContext: initialization completed in 3826 ms
+2020-07-11 18:09:37,599 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-11 18:09:38,172 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-11 18:09:38,720 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-11 18:09:38,734 INFO Started MySQLMointorApplication in 9.625 seconds (JVM running for 11.925)
+2020-07-11 18:09:39,079 INFO Initializing Servlet 'dispatcherServlet'
+2020-07-11 18:09:39,105 INFO Completed initialization in 25 ms
+2020-07-11 18:09:39,135 INFO host#0:0:0:0:0:0:0:1#/database/status
+2020-07-11 18:09:39,366 INFO host#0:0:0:0:0:0:0:1#/database/status
+2020-07-11 18:09:39,557 INFO HikariPool-1 - Starting...
+2020-07-11 18:09:39,562 WARN Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-11 18:09:40,921 INFO host#0:0:0:0:0:0:0:1#/database/status
+2020-07-11 18:09:41,252 INFO HikariPool-1 - Start completed.
+2020-07-11 18:09:41,394 INFO HikariPool-2 - Starting...
+2020-07-11 18:09:41,451 INFO HikariPool-2 - Start completed.
+2020-07-11 18:09:41,706 INFO host#0:0:0:0:0:0:0:1#/database/status
+2020-07-11 18:09:43,177 INFO host#0:0:0:0:0:0:0:1#/database/status
+2020-07-11 18:09:43,184 INFO host#0:0:0:0:0:0:0:1#/database/status
+2020-07-11 18:09:45,218 INFO host#0:0:0:0:0:0:0:1#/database/status
+2020-07-11 18:09:45,222 INFO host#0:0:0:0:0:0:0:1#/database/status
+2020-07-11 18:09:45,938 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-11 18:09:45,939 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-11 18:09:45,943 INFO HikariPool-1 - Shutdown initiated...
+2020-07-11 18:09:45,967 INFO HikariPool-1 - Shutdown completed.
