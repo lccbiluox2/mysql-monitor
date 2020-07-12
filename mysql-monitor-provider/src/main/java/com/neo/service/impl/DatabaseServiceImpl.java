@@ -28,4 +28,9 @@ public class DatabaseServiceImpl implements DatabaseService {
     public void deleteById(int id) {
         databaseDao.deleteById(id);
     }
+
+    @Override
+    public DataBaseDao selectById(int id) {
+        return databaseDao.selectById(id);
+    }
 }

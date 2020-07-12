@@ -18,4 +18,11 @@ public interface DatabaseService {
     List<DataBaseDao> listAll();
 
     void deleteById(int id);
+
+    /**
+     * 根据ID查询数据库
+     * @param id
+     * @return
+     */
+    DataBaseDao selectById(int id);
 }

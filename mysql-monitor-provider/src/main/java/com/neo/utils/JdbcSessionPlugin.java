@@ -12,7 +12,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
@@ -38,6 +40,9 @@ public class JdbcSessionPlugin {
     private static final int IDLE_TIMEOUT = 2 * 60 * 1000;
 
     Cache<String, Connection> cache = null;
+
+    private static String url = "jdbc:mysql://host:port/database?useUnicode=true&characterEncoding=utf-8&useSSL=true";
+
 
     public JdbcSessionPlugin() {
         super();
@@ -88,7 +93,6 @@ public class JdbcSessionPlugin {
     public List<DatabaseAddRes> getDatabaseStatus(List<DataBaseDao> list) {
 
         List<DatabaseAddRes> listRes = new ArrayList<>();
-        String url = "jdbc:mysql://host:port/database?useUnicode=true&characterEncoding=utf-8&useSSL=true";
         for (DataBaseDao dataBaseDao : list) {
             String name = dataBaseDao.getName();
             url = url.replace("host", dataBaseDao.getIp());
@@ -102,7 +106,7 @@ public class JdbcSessionPlugin {
             connectMessage.setName(name);
 
             DatabaseAddRes databaseAddRes = new DatabaseAddRes();
-            BeanUtils.copyProperties(dataBaseDao,databaseAddRes);
+            BeanUtils.copyProperties(dataBaseDao, databaseAddRes);
 
             Object connect = null;
             try {
@@ -115,27 +119,59 @@ public class JdbcSessionPlugin {
             } catch (ExecutionException e) {
                 e.printStackTrace();
             }
-            if(connect == null){
+            if (connect == null) {
                 getConnection(connectMessage);
             }
             boolean flag = false;
-            if(connect != null){
+            if (connect != null) {
                 try {
-                     flag = ((Connection) connect).isValid(6000);
+                    flag = ((Connection) connect).isValid(6000);
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
             }
 
             // 设置连接是否成功
-            if(flag){
+            if (flag) {
                 databaseAddRes.setStatus("true");
-            }else {
+            } else {
                 databaseAddRes.setStatus("false");
             }
             listRes.add(databaseAddRes);
         }
 
         return listRes;
+    }
+
+    public Connection getConnect(DataBaseDao dataBaseDao)  {
+        String name = dataBaseDao.getName();
+
+        url = url.replace("host", dataBaseDao.getIp());
+        url = url.replace("port", dataBaseDao.getPort() + "");
+        url = url.replace("database", dataBaseDao.getDatabase());
+
+        ConnectMessage connectMessage = new ConnectMessage();
+        connectMessage.setConnectUrl(url);
+        connectMessage.setUserName(dataBaseDao.getUsername());
+        connectMessage.setPassword(dataBaseDao.getPassword());
+        connectMessage.setName(name);
+
+
+        Connection connect = null;
+        try {
+            connect = cache.get(name, new Callable<Connection>() {
+                @Override
+                public Connection call() throws Exception {
+                    return getConnection(connectMessage);
+                }
+            });
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+
+        return connect;
+
+
+
     }
 }

@@ -17,4 +17,6 @@ public interface DatabaseDao {
     List<DataBaseDao> listAll();
 
     void deleteById(@Param("id") int id);
+
+    DataBaseDao selectById(@Param("id") int id);
 }

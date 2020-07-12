@@ -78,71 +78,15 @@
       SELECT * from db
     </select>
 
+    <select id="selectById" parameterType="int" resultMap="ResultMap">
+      SELECT * from db where id=#{id}
+    </select>
+
 
     <delete id="deleteById" parameterType="int">
     delete from db where id=#{id}
     </delete>
 
 
-    <!--<select id="getArticleByCateId" parameterType="int" resultMap="ResultMap">-->
-    <!--SELECT * from article where category=#{category}-->
-    <!--</select>-->
-
-    <!--<select id="getArticleById" parameterType="int" resultMap="ResultMap">-->
-    <!--SELECT * from article where id=#{id}-->
-    <!--</select>-->
-
-
-    <!--<select id="getArticleLikeName" parameterType="string" resultMap="ResultMap">-->
-    <!--SELECT * from article where title like '%${title}%'-->
-    <!--</select>-->
-
-
-    <!--<select id="selectCount" resultType="com.neo.entity.dao.ArticleCount">-->
-    <!--SELECT category,COUNT(category) as count FROM article GROUP BY category-->
-    <!--</select>-->
-
-
-
-
-    <!--&lt;!&ndash;更新文章&ndash;&gt;-->
-    <!--<update id="updateArticle" parameterType="com.neo.entity.Article">-->
-    <!--update article-->
-    <!--<set>-->
-    <!--<trim suffix="" suffixOverrides=",">-->
-    <!--<if test="title != null">-->
-    <!--title = #{title},-->
-    <!--</if>-->
-    <!--<if test="ctime != null">-->
-    <!--ctime = #{ctime},-->
-    <!--</if>-->
-    <!--<if test="mtime != null">-->
-    <!--mtime = #{mtime},-->
-    <!--</if>-->
-    <!--<if test="categoryId != null">-->
-    <!--category = #{categoryId},-->
-    <!--</if>-->
-    <!--<if test="address != null">-->
-    <!--address = #{address},-->
-    <!--</if>-->
-    <!--<if test="digest != null">-->
-    <!--digest = #{digest},-->
-    <!--</if>-->
-    <!--<if test="articleType != null">-->
-    <!--articleType = #{articleType},-->
-    <!--</if>-->
-    <!--<if test="modality != null">-->
-    <!--modality = #{modality},-->
-    <!--</if>-->
-    <!--<if test="saveMethod != null">-->
-    <!--saveMethod = #{saveMethod},-->
-    <!--</if>-->
-    <!--<if test="keys != null">-->
-    <!--keys = #{keys},-->
-    <!--</if>-->
-    <!--</trim>-->
-    <!--</set>-->
-    <!--where id = #{id}-->
-    <!--</update>-->
 
 </mapper>
