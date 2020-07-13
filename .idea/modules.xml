@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/assembly/assembly.iml" filepath="$PROJECT_DIR$/assembly/assembly.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mysql-monitor.iml" filepath="$PROJECT_DIR$/.idea/mysql-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysql-monitor-provider/mysql-monitor-provider.iml" filepath="$PROJECT_DIR$/mysql-monitor-provider/mysql-monitor-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-provider/web-provider.iml" filepath="$PROJECT_DIR$/web-provider/web-provider.iml" />
     </modules>
   </component>
 </project>

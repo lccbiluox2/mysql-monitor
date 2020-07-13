@@ -1008,3 +1008,14 @@ Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.
 2020-07-11 18:09:45,939 INFO Shutting down ExecutorService 'applicationTaskExecutor'
 2020-07-11 18:09:45,943 INFO HikariPool-1 - Shutdown initiated...
 2020-07-11 18:09:45,967 INFO HikariPool-1 - Shutdown completed.
+2020-07-12 23:16:21,093 INFO HV000001: Hibernate Validator 6.0.18.Final
+2020-07-12 23:16:21,877 INFO Starting MySQLMointorApplication on lcc with PID 72772 (/Users/lcc/IdeaProjects/lcc_work/mysql-monitor/mysql-monitor-provider/target/classes started by lcc in /Users/lcc/IdeaProjects/lcc_work/mysql-monitor)
+2020-07-12 23:16:21,880 INFO No active profile set, falling back to default profiles: default
+2020-07-12 23:16:24,762 INFO Tomcat initialized with port(s): 8090 (http)
+2020-07-12 23:16:24,961 INFO Root WebApplicationContext: initialization completed in 2825 ms
+2020-07-12 23:16:26,095 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 23:16:26,398 INFO Initializing ExecutorService 'taskScheduler'
+2020-07-12 23:16:26,496 INFO Tomcat started on port(s): 8090 (http) with context path ''
+2020-07-12 23:16:26,599 INFO Started MySQLMointorApplication in 5.686 seconds (JVM running for 7.585)
+2020-07-12 23:19:09,870 INFO Shutting down ExecutorService 'taskScheduler'
+2020-07-12 23:19:09,873 INFO Shutting down ExecutorService 'applicationTaskExecutor'

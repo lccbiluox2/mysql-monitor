@@ -1,0 +1,218 @@
+font{
+	
+	 font-family: 'YouYuan';
+}
+a {
+	text-decoration:none;
+ } 
+
+body {
+	height: 1000px;
+	width: auto;
+}
+
+#body {
+	width: 100%;
+	height: 900px;
+	margin: 0 auto;
+	font-family: "LiSu";
+}
+
+#content {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#Introduction {
+	width: 100%;
+	height: 150px;
+	float: left;
+	text-align: center;
+	background: url(../image/index/hengfu.jpeg) no-repeat 0px 1px;
+	background-size: 100% 100%;
+}
+
+#cntent-text {
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-top: 3px;
+}
+#cntent-chapter{
+	width: 74%;
+	float: right;
+	text-align: center;
+	margin-top: 3px;
+}
+
+#cntent-user{
+	width: 100%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	border: 2px solid #eaeaef;
+}
+#cntent-user-image{
+	width: 100%;
+	height: 200px;
+	float: left;
+}
+.cntent-user-meaasge{
+	width: 100%;
+	height: 16%;
+	float: left;
+	text-align: center;
+}
+#user-img{
+	width: 50%;
+	height: 85%;
+	text-align: center;
+	margin-left: 80px;
+}
+#user-img img{
+	width: 100%;
+	height: 100%;
+	border-radius:200px;
+}
+#user-name{
+	width: 100%;
+	height: 10%;
+	float: left;
+	line-height:35px
+}
+.article-message{
+	width: 20%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 3px;
+}
+.user-connect{
+	width: 33%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.user-connect a {
+	width: 80%;
+	height: 60%;
+	text-align: center;
+	border: 1px solid #eaeaef;
+	padding-top: 1px;
+	display: block;
+	line-height: 30px;
+	margin-left: 5px;
+
+}
+#cntent-search{
+	width: 100%;
+	height: 40px;
+	float: left;
+	border: 2px solid #eaeaef;
+	margin-top: 8px;
+}
+
+#search-input{
+	width: 70%;
+	height: 40px;
+	float: left;
+}
+#search-button-div{
+	width: 20%;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+}
+#search-text{
+	width: 100%;
+	height: 80%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 1px;
+	border-radius:9px;
+}
+
+#search-button{
+	width: 98%;
+	height: 88%;
+	float: left;
+	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 2px;
+}
+
+#cntent-classification{
+	width: 100%;
+	float: left;
+	text-align: left;
+	border: 2px solid #eaeaef;
+	margin-top: 8px;
+}
+#cate-title{
+	width: 100%;
+	height: 40px;
+	float: left;
+	background: #f5f5f5;
+	line-height: 40px;
+}
+#cate-list{
+	width: 100%;
+	float: left;
+}
+.cate_item{
+	width:100%;
+	height:40px;
+	float:left;
+	margin-top: 1px;
+}
+.cate_item_img{
+	width: 15%;
+	height:100%;
+	float:left;
+	background: url(../image/index/cate-item.png) no-repeat 0px 1px;
+	background-size: 100% 100%;
+	margin-left: 10px;
+}
+.cate_item_a{
+	width: 40%;
+	height:100%;
+	float:left;
+	margin-left: 10px;
+	line-height: 30px;
+	text-align: left;
+}
+.cate_item_count{
+	height:100%;
+	float:right;
+	margin-right: 10px;
+
+}
+
+.aritle_item{
+	width: 100%;
+	float: left;
+	text-align: left;
+	margin-top: 16px;
+	border-top: 2px solid #eaeaef;
+}
+.aritle_item_title{
+	width: 100%;
+	float: left;
+	margin-top: 8px;
+	font-size: 20px;
+	font-weight:800;
+}
+.aritle_item_zhaiyao{
+	width: 100%;
+	float: left;
+	margin-top: 8px;
+}
+.aritle_item_message{
+	width: 100%;
+	float: left;
+	margin-top: 8px;
+}

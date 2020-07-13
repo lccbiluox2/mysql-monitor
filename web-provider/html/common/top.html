@@ -1,0 +1,68 @@
+<style>
+    #top{
+        position:relative;
+        float:left;
+        height:40px;
+        width:100%;
+        background-color:black;
+    }
+    .top_left{
+        position:relative;
+        float:left;
+        height:40px;
+        width:30px;
+
+    }
+    .item1{
+        position:relative;
+        float:left;
+        height:40px;
+        width:5%;
+        color:#F00;
+        text-align:center;
+        line-height:50px;
+        display:block;
+    }
+    .item1 a{
+        color:#FFF;
+    }
+    .item1:hover{
+        background-color:green;
+    }
+
+    .item2{
+        position:relative;
+        float:right;
+        height:40px;
+        width:7%;
+        text-align:center;
+        line-height:50px;
+        display:block;
+    }
+    .item2 a{
+        color:#FFF;
+    }
+    .item2:hover{
+        background-color:green;
+    }
+</style>
+
+<div id="top">
+    <div class="top_left"></div>
+    <div class="item1"><a href="/indexController/welcome">首 页</a></div>
+    <div class="item1"><a href="./../database/database-list.html" target="_blank">数据库</a></div>
+    <div class="item1"><a href="">学院</a></div>
+    <div class="item1"><a href="/rentIndexController/getAllRent">下载</a></div>
+    <div class="item1"><a href="">论坛</a></div>
+    <div class="item1"><a href="/rentIndexController/getRentByHstate?h_state=1">问答</a></div>
+    <div class="item1"><a href="">直播</a></div>
+    <div class="item1"><a href="/messageIndexController/preAddMessagePage?currentPage=0">招聘</a></div>
+
+
+    <div class="item2"><a href="/userController/toAdminLogin">登录/注册</a></div>
+    <div class="item2"><a href="/userController/userLogin">收藏</a></div>
+    <div class="item2"><a href="./../article/addArticle.html" target="_blank">写作中心</a></div>
+</div>
+
+
+

@@ -1,0 +1,238 @@
+font{
+
+    font-family: 'YouYuan';
+}
+a {
+    text-decoration:none;
+}
+
+body {
+    width: auto;
+}
+
+#body {
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    font-family: "LiSu";
+    background: pink;
+}
+
+#content {
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    background: pink;
+}
+#file-root{
+    float: left;
+    width: 100%;
+    height: 40px;
+}
+
+#file-root select{
+    float: left;
+    width: 10%;
+    height: 98%;
+}
+#file-root-input{
+    width: 88%;
+    height: 98%;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 2px;
+}
+
+#title{
+    float: left;
+    width: 100%;
+    height: 40px;
+    font-size: 23px;
+    text-align: left;
+    font-weight:800;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #222226;
+    background: papayawhip;
+}
+#title_text{
+    width: 70%;
+    height: 98%;
+    font-size: 20px;
+    text-align: left;
+    font-weight:300;
+    color: #222226;
+}
+#draft{
+    width: 10%;
+    height: 100%;
+    margin-right: 16px;
+    padding: 0 16px;
+    font-size: 16px;
+    color: #ca0c16;
+    border: 1px solid #ca0c16;
+    border-radius: 4px;
+    white-space: nowrap;
+    background-color: #fff;
+
+}
+#save{
+    width: 10%;
+    height: 98%;
+    margin-right: 16px;
+    padding: 0 16px;
+    font-size: 16px;
+    color: #ca0c16;
+    border: 1px solid #ca0c16;
+    border-radius: 4px;
+    white-space: nowrap;
+    background-color: #fff;
+}
+#tools{
+    float: left;
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: gold;
+    border: 1px solid #ca0c16;
+}
+.tools-item{
+    width: 50px;
+    height: 50px;
+    float: left;
+    /** 这一点 必须设置为 0不然form 总是无法放进div */
+    font-size: 0px;
+}
+#importFile{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: ghostwhite;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+#neoring{
+    float: left;
+    width: 100%;
+    text-align: left;
+    font-weight:800;
+    background: white;
+
+}
+/*
+ 代码高亮后面的背景色
+ */
+pre {
+    background: #fafafa;
+}
+#neoring_add{
+    width: 48%;
+    height: 600px;
+    float: left;
+}
+#neoring_button{
+    width: 2%;
+    height: 600px;
+    background: ghostwhite;
+    float: left;
+    margin-left: 10px;
+}
+#neiring_show{
+    width: 49%;
+    height: 600px;
+    float: left;
+    margin-left: 2px;
+    overflow:scroll;
+}
+.neirong_button_show{
+    width: 100%;
+    height: 20px;
+    float: left;
+}
+.neirong_button_show img{
+    width: 100%;
+    height: 100%;
+}
+#text_textarea{
+    width: 100%;
+    height:100%;
+    border: none;
+}
+
+.window{
+    width:600px;
+    background-color:#d0def0;
+    position:absolute;
+    padding:2px;
+    margin:5px;
+    display:none;
+}
+.content{
+    background-color:#FFF;
+    font-size:14px;
+    overflow:auto;
+}
+.title{
+    padding:2px;
+    color:black;
+    font-size:20px;
+}
+.title img{
+    float:right;
+}
+
+#keyWord {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+#columns{
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    margin-top: 10px;
+}
+#columns-list{
+    width: 100%;
+    height: 200px;
+    background: pink;
+    overflow:auto;
+    border: 1px solid red;
+    margin-top: 8px;
+}
+#articleType{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+#modality{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+#saveMethod{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+#keys{
+    width: 90%;
+    height: 28px;
+    border: 0px;
+}
+#columns-select{
+    width: 90%;
+    height: 28px;
+    border: 0px;
+    background: red;
+}
+#operator{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    float: right;
+}
+#operator label{
+    margin-left: 8px;
+}

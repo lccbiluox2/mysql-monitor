@@ -8,18 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="assembly" />
         <module name="mysql-monitor-provider" />
+        <module name="web-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="assembly" target="1.8" />
       <module name="mysql-monitor" target="1.8" />
       <module name="mysql-monitor-provider" target="1.8" />
+      <module name="web-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="assembly" options="-parameters" />
       <module name="mysql-monitor-provider" options="-parameters" />
+      <module name="web-provider" options="-parameters" />
     </option>
   </component>
 </project>

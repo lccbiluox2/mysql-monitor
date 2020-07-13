@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>写入文章</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="./../../js/jquery-3.4.1.js"></script>
+    <script src="./../../js/markdown/marked.min.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="./../../js/markdown/styles/atom-one-dark.css">
+    <script src="./../../js/markdown/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <script src="./../../js/article/addArticle.js" type="text/javascript"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./../../css/article/addArticle.css"/>
+
+</head>
+<body>
+
+<div id="mybody">
+
+    <iframe align="center" width="100%" height="40px" src="./../common/top.html" frameborder="no" border="0"
+            marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    <div id="content">
+        <div id="file-root">
+            <select id="file-root-select"></select>
+            <input type="text" name="title" id="file-root-input" value="/Users/lcc/IdeaProjects/docs/doc-flink/">
+        </div>
+        <div id="title">
+            <input type="text" name="title" id="title_text">
+            <input type="button" name="draft" id="draft" value="保存为草稿">
+            <input type="button" name="save" id="save" onclick="saveArticle()" value="发布文章">
+        </div>
+        <div id="tools">
+            <div class="tools-item">
+                <form name="form1" style="margin:0" >
+                    　<input type="file" name="picpath" id="picpath" style="display:none;" onChange="inportLocalFile(this)">
+                    　<input name="path" type="hidden" style="display:none;" readonly>
+                    　<input type="button" value="导入"  id="importFile" onclick="document.form1.picpath.click()">
+                </form>
+            </div>
+        </div>
+        <div id="neoring">
+            <div id="neoring_add">
+                <textarea id="text_textarea"></textarea>
+            </div>
+            <div id="neoring_button">
+                <div class="neirong_button_show"></div>
+                <div class="neirong_button_show">
+                    <a href="#" onclick="hideShowTime()">
+                        <img src="./../../image/article/aritle_show1.png">
+                    </a>
+                </div>
+            </div>
+            <div id="neiring_show">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="window" id="center">
+        <div id="window-title" class="title"><img src="./../../image/article/close.jpg" alt="关闭" />发表文章</div>
+        <div class="content">
+            <div id="keyWord" >
+                <label>关键字:</label>
+                <input type="text" id="keys" placeholder="清填写关键字，逗号分隔" >
+            </div>
+            <div id="columns" >
+                <label>专栏:</label>
+                <label id="columns-select"></label>
+            </div>
+            <div id="columns-list" >
+                <input type="checkbox" name="选项1" value="1"  onchange="selectCheckBox(this)" ><label>选项1</label>
+                <input type="checkbox" name="选项2" value="2"  onchange="selectCheckBox(this)" ><label>选项2</label>
+            </div>
+            <div id="articleType" >
+                <label>类型:</label>
+                <label><input type="radio" name="articleTypes" value="原创">原创</label>
+                <label><input type="radio" name="articleTypes" value="转载">转载</label>
+                <label><input type="radio" name="articleTypes" value="翻译">翻译</label>
+            </div>
+            <div id="modality" >
+                <label>发布形式:</label>
+                <label><input type="radio" name="modalitys" value="公开">公开</label>
+                <label><input type="radio" name="modalitys" value="私密">私密</label>
+                <label><input type="radio" name="modalitys" value="粉丝可见">粉丝可见</label>
+                <label><input type="radio" name="modalitys" value="VIP可见">VIP可见</label>
+            </div>
+            <div class="saveMethod" >
+                <label>存储形式:</label>
+                <label><input type="radio" name="saveMethos" value="MySQL">MySQL</label>
+                <label><input type="radio" name="saveMethos" value="Doc">Doc</label>
+            </div>
+            <div id="operator" >
+                <label><a href="#"  onclick="cancle()">取消</a> </label>
+                <label><a href="#"  onclick="">保存为草稿</a> </label>
+                <label><a href="#"  onclick="releaseArticle()">发布文章</a> </label>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+</body>
+</html>
+
+

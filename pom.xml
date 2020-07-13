@@ -12,6 +12,7 @@
         <!--<module>assembly</module>-->
         <module>mysql-monitor-provider</module>
         <module>assembly</module>
+        <module>web-provider</module>
     </modules>
 
     <name>springweb Maven Webapp</name>

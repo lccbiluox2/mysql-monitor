@@ -1,0 +1,70 @@
+font{
+
+    font-family: 'YouYuan';
+}
+a {
+    text-decoration:none;
+}
+
+body {
+    width: auto;
+}
+
+#body {
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    font-family: "LiSu";
+    background: pink;
+    text-align: center;
+}
+
+#content {
+    width: 92%;
+    margin-top: 8px;
+    margin: 0 auto;
+}
+.database-list{
+    float: left;
+    width: 100%;
+}
+.add-databases{
+    background: white;
+    width: 100%;
+    height: 50px;
+    background: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+.add-form{
+    margin-top: 10px;
+}
+.add {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: #ccc;
+    margin:0 auto;
+    font-size: 40px;
+    line-height: 40px;
+    display: block;
+}
+.add a:hover{
+    color: green;
+}
+
+.items table{
+    width: 100%;
+
+}
+.items table tr:nth-child(odd){background:#F4F4F4;}
+.items table td:nth-child(even){color:#C00;}
+.items table tr:nth-child(5){background:#73B1E0;color:#FFF;}
+.check-style-unequal-width {
+    width: 8px;
+    height: 16px;
+    border-color: #009933;
+    border-style: solid;
+    border-width: 0 3px 5px 0;
+    transform: rotate(45deg);
+}
