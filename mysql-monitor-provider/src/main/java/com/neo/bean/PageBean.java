@@ -1,6 +1,5 @@
 package com.neo.bean;
 
-
 import java.util.List;
 /*
  * @author   lcc  这个是分页的类    对取出的数据进行分类   并且分装到pageBean中  对类的说明 标明开发该类模块的作者

@@ -2,6 +2,11 @@ var id = null;
 
 $(document).ready(function () {
     id = getUrlParam("id");
+
+    /**
+     * 显示菜单
+     */
+    showMenu();
     /**
      * 显示数据库连接信息
      */
@@ -9,6 +14,14 @@ $(document).ready(function () {
 
     showDbDetail();
 });
+
+/**
+ * 显示菜单
+ */
+function showMenu() {
+    var menu = "<a href='./../tables/tables-list.html?id="+id+"'  target=\"_blank\" >表详情</a>";
+    $(".menu").html(menu)
+}
 
 /**
  * 显示数据库详情
@@ -26,7 +39,6 @@ function showDbDetail() {
         dataType: "json",
         contentType: "application/json;charset=UTF-8",
         success: function (data) {
-            console.log(data)
             $.each(data, function (name, item) {
                 if (name == "content") {
                     console.log("name:" + name)
