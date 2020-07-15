@@ -8,7 +8,7 @@ import lombok.experimental.Accessors;
  */
 @Data
 @Accessors(chain = true)
-public class TableDescMain {
+public class TableDescMain extends Tables {
     private String name;
     private String engine;
     private String rows;

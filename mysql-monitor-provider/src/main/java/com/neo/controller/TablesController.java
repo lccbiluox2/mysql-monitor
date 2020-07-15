@@ -2,10 +2,10 @@ package com.neo.controller;
 
 import com.neo.common.DubboResult;
 import com.neo.entity.dao.DataBaseDao;
-import com.neo.entity.req.DatabaseAddReq;
-import com.neo.entity.response.DatabaseAddRes;
 import com.neo.entity.response.TableDesc;
 import com.neo.entity.response.TableDescMain;
+import com.neo.entity.response.TableDescOhter;
+import com.neo.entity.response.Tables;
 import com.neo.service.DatabaseService;
 import com.neo.service.TablesService;
 import com.neo.utils.JdbcSessionPlugin;
@@ -16,10 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.sql.Connection;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @RestController
 @RequestMapping("/tables")
@@ -54,14 +51,22 @@ public class TablesController {
         Collection<TableDesc> collection = map.values();
         List<TableDesc> list =  new ArrayList<>(collection);
 
-        List<TableDescMain> tableDescsMain = new ArrayList<>(list.size());
+        List<Tables> tableDescsMain = new ArrayList<>(list.size());
+        List<Tables> tableDescsOther = new ArrayList<>(list.size());
         for (TableDesc tableDesc : list){
             TableDescMain main = new TableDescMain();
+            TableDescOhter other = new TableDescOhter();
             BeanUtils.copyProperties(tableDesc,main);
+            BeanUtils.copyProperties(tableDesc,other);
             tableDescsMain.add(main);
+            tableDescsOther.add(other);
         }
 
-        return DubboResult.buildSuccessResult(tableDescsMain);
+        Map<String, List<Tables>> mapreturn = new HashMap<>(2);
+        mapreturn.put("tableDescsMain",tableDescsMain);
+        mapreturn.put("tableDescsOther",tableDescsOther);
+
+        return DubboResult.buildSuccessResult(mapreturn);
     }
 
 

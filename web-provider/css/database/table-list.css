@@ -24,7 +24,6 @@ body {
     margin-top: 8px;
     margin: 0 auto;
     background: red;
-    height: 1000px;
 }
 .content-item{
     float: left;
@@ -33,10 +32,39 @@ body {
 .tables{
     float: left;
     width: 100%;
-    background: #00AAAA;
 }
-.tables table{
+.tableDescsMain table{
     float: left;
     width: 100%;
-    background: lawngreen;
+}
+.tableDescsOther  table{
+    float: left;
+    width: 100%;
+}
+
+.altrowstable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
+}
+.altrowstable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.altrowstable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.oddrowcolor{
+    background-color:#d4e3e5;
+}
+.evenrowcolor{
+    background-color:#c3dde0;
 }

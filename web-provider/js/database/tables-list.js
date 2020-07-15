@@ -25,92 +25,85 @@ function showTables() {
         dataType: "json",
         contentType: "application/json;charset=UTF-8",
         success: function (data) {
-            var itemData = "";
+            console.log(data)
+
             $.each(data, function (name, item) {
                 if (name == "content") {
                     console.log("name:" + name)
                     $.each(item, function (bjectName, objectValues) {
-                        itemData += "<tr>";
-                        itemData += "<td>" + objectValues.name + "</td>";
-                        itemData += "<td>" + objectValues.engine + "</td>";
-                        itemData += "<td>" + objectValues.rows + "</td>";
-                        itemData += "<td>" + objectValues.autoIncrement + "</td>";
-                        itemData += "<td>" + objectValues.collation + "</td>";
-                        itemData += "<td>" + objectValues.dataMb + "</td>";
-                        itemData += "<td>" + objectValues.indexMb + "</td>";
-                        itemData += "<td>" + objectValues.allMb + "</td>";
-                        itemData += "<td>" + objectValues.count + "</td>";
-                        itemData += "</tr>";
+                        console.log("bjectName:" + bjectName)
+                        if (bjectName == "tableDescsMain") {
+                            showTableDescsMain(objectValues);
+                        }
+                        if (bjectName == "tableDescsOther") {
+                            showTableDescsOther(objectValues);
+                        }
+
+                        altRows();
                     });
                 }
             });
-            $(".tables table").append(itemData);
+
         },
         error: function (reason) {
             console.log(reason)
         }
     });
 
-    // private String name;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
-    //
-    // private String ;
-    // private String ;
-    // private String ;
-    // private String ;
 }
 
+function altRows() {
+    var rows = $("tr");
+    for (i = 0; i < rows.length; i++) {
+        if (i % 2 == 0) {
+            rows[i].className = "evenrowcolor";
+        } else {
+            rows[i].className = "oddrowcolor";
+        }
+    }
+}
 
-
-
-function showVariables(htmlId,variables) {
-    $.each(variables, function (bjectName, objectValue) {
-        var itemData = "<tr>";
-        itemData += "<td>" + bjectName + "</td>";
-        itemData += "<td>" + objectValue + "</td>";
+function showTableDescsOther(objectValues) {
+    var itemData = "";
+    $.each(objectValues, function (bjectName, objectValues) {
+        itemData += "<tr>";
+        itemData += "<td>" + objectValues.name + "</td>";
+        itemData += "<td>" + objectValues.rowFormat + "</td>";
+        itemData += "<td>" + objectValues.avgRowLength + "</td>";
+        itemData += "<td>" + objectValues.dataLength + "</td>";
+        itemData += "<td>" + objectValues.indexLength + "</td>";
+        itemData += "<td>" + objectValues.dataFree + "</td>";
+        itemData += "<td>" + objectValues.createTime + "</td>";
+        itemData += "<td>" + objectValues.updateTime + "</td>";
+        itemData += "<td>" + objectValues.checkTime + "</td>";
+        itemData += "<td>" + objectValues.checksum + "</td>";
+        itemData += "<td>" + objectValues.createOptions + "</td>";
+        itemData += "<td>" + objectValues.comment + "</td>";
         itemData += "</tr>";
-        $("."+htmlId+" table").append(itemData);
     });
+    console.log(itemData)
+    $(".tableDescsOther table").append(itemData);
+
 }
 
-function showAllVariables(variables) {
-    $.each(variables, function (bjectName, objectValue) {
-        var itemData = "<tr>";
-        itemData += "<td>" + bjectName + "</td>";
-        itemData += "<td>" + objectValue + "</td>";
+
+function showTableDescsMain(objectValues) {
+    var itemData = "";
+    $.each(objectValues, function (bjectName, objectValues) {
+        itemData += "<tr>";
+        itemData += "<td>" + objectValues.name + "</td>";
+        itemData += "<td>" + objectValues.engine + "</td>";
+        itemData += "<td>" + objectValues.rows + "</td>";
+        itemData += "<td>" + objectValues.autoIncrement + "</td>";
+        itemData += "<td>" + objectValues.collation + "</td>";
+        itemData += "<td>" + objectValues.dataMb + "</td>";
+        itemData += "<td>" + objectValues.indexMb + "</td>";
+        itemData += "<td>" + objectValues.allMb + "</td>";
+        itemData += "<td>" + objectValues.count + "</td>";
+        console.log(objectValues.dataMb)
         itemData += "</tr>";
-        $(".variables-list table").append(itemData);
     });
-}
-
-/**
- * 显示数据库基本详情
- */
-function showConnectMessage() {
-    var name = getUrlParam("name");
-    var ip = getUrlParam("ip");
-    var database = getUrlParam("database");
-    var port = getUrlParam("port");
-    var username = getUrlParam("username");
-
-    var message = "ID:"+id+"\t名称："+name+"\tip地址："+ip+"\t数据库："+database+"\t端口："+port+"\t用户名："+username+"\t密码:******";
-    $("#db-con").html(message)
+    $(".tableDescsMain table").append(itemData);
 }
 
 /**
