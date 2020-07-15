@@ -25,23 +25,55 @@ function showTables() {
         dataType: "json",
         contentType: "application/json;charset=UTF-8",
         success: function (data) {
-            console.log(data)
+            var itemData = "";
             $.each(data, function (name, item) {
                 if (name == "content") {
                     console.log("name:" + name)
-                    $.each(item, function (bjectName, objectValue) {
-
-
-
+                    $.each(item, function (bjectName, objectValues) {
+                        itemData += "<tr>";
+                        itemData += "<td>" + objectValues.name + "</td>";
+                        itemData += "<td>" + objectValues.engine + "</td>";
+                        itemData += "<td>" + objectValues.rows + "</td>";
+                        itemData += "<td>" + objectValues.autoIncrement + "</td>";
+                        itemData += "<td>" + objectValues.collation + "</td>";
+                        itemData += "<td>" + objectValues.dataMb + "</td>";
+                        itemData += "<td>" + objectValues.indexMb + "</td>";
+                        itemData += "<td>" + objectValues.allMb + "</td>";
+                        itemData += "<td>" + objectValues.count + "</td>";
+                        itemData += "</tr>";
                     });
                 }
             });
-
+            $(".tables table").append(itemData);
         },
         error: function (reason) {
             console.log(reason)
         }
     });
+
+    // private String name;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
+    //
+    // private String ;
+    // private String ;
+    // private String ;
+    // private String ;
 }
 
 

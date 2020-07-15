@@ -23,31 +23,20 @@ body {
     width: 92%;
     margin-top: 8px;
     margin: 0 auto;
+    background: red;
+    height: 1000px;
 }
 .content-item{
     float: left;
     width: 100%;
 }
-.connect{
-    background: gold;
-}
-.variables{
+.tables{
     float: left;
     width: 100%;
-}
-.variables-list table{
-    float: left;
-    width: 100%;
-}
-
-.variables-list table tr:nth-child(odd){background:#F4F4F4;}
-.variables-list table td:nth-child(even){color:#C00;}
-.variables-list table tr:nth-child(5){background:#73B1E0;color:#FFF;}
-.variables-list table td{
-    width: 50%;
-}
-
-.menu{
     background: #00AAAA;
-    margin-top: 10px;
+}
+.tables table{
+    float: left;
+    width: 100%;
+    background: lawngreen;
 }

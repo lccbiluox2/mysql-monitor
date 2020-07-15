@@ -41,9 +41,7 @@ function showDbDetail() {
         success: function (data) {
             $.each(data, function (name, item) {
                 if (name == "content") {
-                    console.log("name:" + name)
                     $.each(item, function (bjectName, objectValue) {
-                        console.log("bjectName:" + bjectName)
                         if(bjectName == "mySqlHome"){
                             $("#mySqlHome").html("环境变量："+objectValue)
                         }
