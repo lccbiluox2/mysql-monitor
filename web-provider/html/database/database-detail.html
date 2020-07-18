@@ -19,21 +19,32 @@
 
     <div id="content">
         <div class="content-item connect">
-            <p id="db-con">id: 1 ip:192.168.30.247 database:lcc username:lcc</p>
-            <p id="version">数据库版本：8.0.19</p>
-            <p id="mySqlHome">环境变量：/user/mysql/</p>
-            <p id="basedir">实际位置：/user/mysql/</p>
-            <p id="datadir">数据位置：/user/mysql/</p>
-            <p id="dbSize"></p>
+            <p style="background: #0C9A9A;width:100%;">数据库基本信息</p>
+            <table class="altrowstable">
+                <tr>
+                    <td>名称</td>
+                    <td>值</td>
+                </tr>
+                <tr>
+                    <td id="db-con">连接信息</td>
+                    <td id="version">数据库版本</td>
+                </tr>
+                <tr>
+                    <td id="mySqlHome">环境变量</td>
+                    <td id="basedir">实际位置</td>
+                </tr>
+                <tr>
+                    <td id="datadir">数据位置</td>
+                    <td id="dbSize">数据大小</td>
+                </tr>
+            </table>
         </div>
-        <div class="content-item  menu" >
-xxxxx
-        </div>
+        <div class="content-item  menu"></div>
 
 
         <div class="content-item variables-list dbSize">
-            <p  style="background: #0C9A9A;width:100%;">数据库大小</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">数据库大小</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -42,8 +53,8 @@ xxxxx
         </div>
         <h1></h1>
         <div class="content-item variables-list charMap">
-            <p  style="background: #0C9A9A;width:100%;">编码信息</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">编码信息</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -53,8 +64,8 @@ xxxxx
 
         <h1></h1>
         <div class="content-item variables-list logError">
-            <p  style="background: #0C9A9A;width:100%;">错误日志</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">错误日志</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -63,8 +74,8 @@ xxxxx
         </div>
         <h1></h1>
         <div class="content-item variables-list logBin">
-            <p  style="background: #0C9A9A;width:100%;">二进制日志</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">二进制日志</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -73,8 +84,8 @@ xxxxx
         </div>
         <h1></h1>
         <div class="content-item variables-list generalLog">
-            <p  style="background: #0C9A9A;width:100%;">通用日志</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">通用日志</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -83,8 +94,8 @@ xxxxx
         </div>
 
         <div class="content-item variables-list slowQueryLog">
-            <p style="background: #0C9A9A;width:100%;" >慢查询日志</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">慢查询日志</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -93,8 +104,8 @@ xxxxx
         </div>
 
         <div class="content-item variables-list maxConnecttion">
-            <p style="background: #0C9A9A;width:100%;" >最大连接数</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">最大连接数</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -103,8 +114,8 @@ xxxxx
         </div>
 
         <div class="content-item variables-list threads">
-            <p style="background: #0C9A9A;width:100%;" >线程数</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">线程数</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -113,8 +124,8 @@ xxxxx
         </div>
 
         <div class="content-item variables-list tableLock">
-            <p style="background: #0C9A9A;width:100%;" >线程数</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">线程数</p>
+            <table class="altrowstable">
                 <tr>
                     <td>名称</td>
                     <td>值</td>
@@ -123,10 +134,9 @@ xxxxx
         </div>
 
 
-
         <div class="content-item variables-list other">
-            <p  style="background: #0C9A9A;width:100%;">其他信息</p>
-            <table>
+            <p style="background: #0C9A9A;width:100%;">其他信息</p>
+            <table class="altrowstable" >
                 <tr>
                     <td>名称</td>
                     <td>值</td>

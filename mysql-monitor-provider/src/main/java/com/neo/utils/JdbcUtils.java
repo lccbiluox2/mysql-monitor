@@ -1,5 +1,6 @@
 package com.neo.utils;
 
+import com.neo.entity.dao.TableColumns;
 import com.neo.entity.response.TableDesc;
 
 import java.sql.*;
@@ -190,5 +191,47 @@ public class JdbcUtils {
             e.printStackTrace();
         }
         return map;
+    }
+
+    /**
+     * 获取表的详情信息
+     * @param connect
+     * @param database
+     * @param tableName
+     * @return
+     */
+    public static List<TableColumns> getTableColumns(Connection connect, String database, String tableName) {
+
+        String sql = "show full columns from "+database+"."+tableName;
+        List<TableColumns> list = new ArrayList<>();
+        try {
+            Statement st = connect.createStatement();
+            ResultSet result = st.executeQuery(sql);
+            while (result.next()) {
+                String field = result.getString("Field");
+                String type = result.getString("Type");
+                String collation = result.getString("Collation");
+                String nullValue = result.getString("Null");
+                String key = result.getString("Key");
+                String defaultValue = result.getString("Default");
+                String extra = result.getString("Extra");
+                String privileges = result.getString("Privileges");
+                String comment = result.getString("Comment");
+
+
+                TableColumns columns = new TableColumns();
+                columns.setField(field).setType(type).setCollation(collation)
+                        .setNu(nullValue).setKey(key).setDefau(defaultValue)
+                        .setExtra(extra).setPrivileges(privileges)
+                        .setComment(comment);
+
+               list.add(columns);
+            }
+
+            st.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
     }
 }

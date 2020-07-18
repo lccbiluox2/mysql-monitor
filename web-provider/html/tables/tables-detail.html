@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>表详情</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <script type="text/javascript" src="./../../js/jquery-3.4.1.js"></script>
+
+    <script src="./../../js/markdown/marked.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="./../../js/markdown/styles/atom-one-dark.css">
+    <script src="./../../js/markdown/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+    <script src="../../js/constant.js" type="text/javascript"></script>
+    <script src="../../js/database/tables-detail.js" type="text/javascript"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./../../css/database/table-detail.css"/>
+
+</head>
+<body>
+
+<div id="mybody">
+    <div id="content">
+        <div class="content-item  create-table">
+            <p style="background: #0C9A9A;width:100%;">建表语句</p>
+            <div id="show-code">
+                <table class="altrowstable"   >
+                    <tr>
+                        <td>表名</td>
+                        <td>建表语句</td>
+                    </tr>
+                    <tr>
+                        <td id="tableName"></td>
+                        <td id="tableCreate"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="content-item">
+            <p style="background: #0C9A9A;width:100%;">字段</p>
+            <div id="table-clumn">
+                <table class="altrowstable"   >
+                    <tr>
+                        <td>Field</td>
+                        <td>Type</td>
+                        <td>Collation</td>
+                        <td>Null</td>
+                        <td>Key</td>
+                        <td>Default</td>
+                        <td>Extra</td>
+                        <td>Privileges</td>
+                        <td>Comment</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+

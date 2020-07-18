@@ -32,8 +32,8 @@ function locaDatabase() {
                         itemData += "<td>" + db_obj.port + "</td>";
                         itemData += "<td>" + db_obj.username + "</td>";
                         itemData += "<td>" + db_obj.password + "</td>";
-                        if (db_obj.status != "true") {
-                            itemData += "<td><div class=\"check-style-unequal-width\"></div></td>";
+                        if (db_obj.status == "true") {
+                            itemData += "<td style='font-size: 20px;color: green'>&radic;</td>";
                         }else {
                             itemData += "<td style='font-size: 20px;color: red'>X</td>";
                         }
@@ -46,6 +46,7 @@ function locaDatabase() {
                 }
             });
             $(".items table").append(itemData);
+            altRows();
         },
         error: function (reason) {
             console.log(reason)
@@ -96,7 +97,7 @@ function addDatabase() {
                     $(".items table").append(itemData);
                 }
             });
-
+            altRows();
         },
         error: function (reason) {
             console.log(reason)
@@ -116,9 +117,25 @@ function deleteThis(element, id) {
         contentType: "application/json;charset=UTF-8",
         success: function (data) {
             element.parentElement.parentElement.remove();
+            altRows();
         },
         error: function (reason) {
             console.log(reason)
         }
     });
+}
+
+
+/**
+ * 表格隔行变色
+ */
+function altRows() {
+    var rows = $("tr");
+    for (i = 0; i < rows.length; i++) {
+        if (i % 2 == 0) {
+            rows[i].className = "evenrowcolor";
+        } else {
+            rows[i].className = "oddrowcolor";
+        }
+    }
 }

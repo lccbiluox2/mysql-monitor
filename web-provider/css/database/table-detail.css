@@ -27,19 +27,14 @@ body {
     float: left;
     width: 100%;
 }
-.tables{
-    float: left;
-    width: 100%;
-}
-.tableDescsMain table{
-    float: left;
-    width: 100%;
-}
-.tableDescsOther  table{
+#show-code table{
     float: left;
     width: 100%;
 }
 
+/**
+下面一段是表格隔行变色
+ */
 .altrowstable {
     font-family: verdana,arial,sans-serif;
     font-size:11px;
@@ -65,4 +60,9 @@ body {
 }
 .evenrowcolor{
     background-color:#c3dde0;
+}
+
+#table-clumn table{
+    float: left;
+    width: 100%;
 }

@@ -13,7 +13,24 @@ $(document).ready(function () {
     showConnectMessage();
 
     showDbDetail();
+
+    altRows();
 });
+
+/**
+ * 表格隔行变色
+ */
+function altRows() {
+    var rows = $("tr");
+    for (i = 0; i < rows.length; i++) {
+        if (i % 2 == 0) {
+            rows[i].className = "evenrowcolor";
+        } else {
+            rows[i].className = "oddrowcolor";
+        }
+    }
+}
+
 
 /**
  * 显示菜单
@@ -90,7 +107,7 @@ function showDbDetail() {
                     });
                 }
             });
-
+            altRows();
         },
         error: function (reason) {
             console.log(reason)
@@ -106,16 +123,6 @@ function showVariables(htmlId,variables) {
         itemData += "<td>" + objectValue + "</td>";
         itemData += "</tr>";
         $("."+htmlId+" table").append(itemData);
-    });
-}
-
-function showAllVariables(variables) {
-    $.each(variables, function (bjectName, objectValue) {
-        var itemData = "<tr>";
-        itemData += "<td>" + bjectName + "</td>";
-        itemData += "<td>" + objectValue + "</td>";
-        itemData += "</tr>";
-        $(".variables-list table").append(itemData);
     });
 }
 

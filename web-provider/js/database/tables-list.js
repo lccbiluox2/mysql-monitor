@@ -81,12 +81,14 @@ function showTableDescsOther(objectValues) {
         itemData += "<td>" + objectValues.comment + "</td>";
         itemData += "</tr>";
     });
-    console.log(itemData)
     $(".tableDescsOther table").append(itemData);
 
 }
 
-
+/**
+ * 表重要信息展示
+ * @param objectValues
+ */
 function showTableDescsMain(objectValues) {
     var itemData = "";
     $.each(objectValues, function (bjectName, objectValues) {
@@ -100,7 +102,10 @@ function showTableDescsMain(objectValues) {
         itemData += "<td>" + objectValues.indexMb + "</td>";
         itemData += "<td>" + objectValues.allMb + "</td>";
         itemData += "<td>" + objectValues.count + "</td>";
-        console.log(objectValues.dataMb)
+        itemData += "<td>";
+        itemData += "&nbsp;&nbsp;&nbsp;<a href='#'  >删除</a>";
+        itemData += "&nbsp;&nbsp;&nbsp;<a href='./tables-detail.html?id="+id+"&name="+objectValues.name+ "'  target='_blank' >查看</a>";
+        itemData += "</td>";
         itemData += "</tr>";
     });
     $(".tableDescsMain table").append(itemData);

@@ -40,12 +40,41 @@ body {
     width: 100%;
 }
 
-.variables-list table tr:nth-child(odd){background:#F4F4F4;}
-.variables-list table td:nth-child(even){color:#C00;}
-.variables-list table tr:nth-child(5){background:#73B1E0;color:#FFF;}
-.variables-list table td{
-    width: 50%;
+
+/**
+下面一段是表格隔行变色
+ */
+.altrowstable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #a9c6c9;
+    border-collapse: collapse;
 }
+.altrowstable {
+    width: 100%;
+    float: left;
+}
+.altrowstable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.altrowstable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.oddrowcolor{
+    background-color:#d4e3e5;
+}
+.evenrowcolor{
+    background-color:#c3dde0;
+}
+
 
 .menu{
     background: #00AAAA;

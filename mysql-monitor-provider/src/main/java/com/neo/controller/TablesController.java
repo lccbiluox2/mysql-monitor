@@ -2,10 +2,9 @@ package com.neo.controller;
 
 import com.neo.common.DubboResult;
 import com.neo.entity.dao.DataBaseDao;
-import com.neo.entity.response.TableDesc;
-import com.neo.entity.response.TableDescMain;
-import com.neo.entity.response.TableDescOhter;
-import com.neo.entity.response.Tables;
+import com.neo.entity.dao.TableColumns;
+import com.neo.entity.req.TableDetailReq;
+import com.neo.entity.response.*;
 import com.neo.service.DatabaseService;
 import com.neo.service.TablesService;
 import com.neo.utils.JdbcSessionPlugin;
@@ -69,5 +68,32 @@ public class TablesController {
         return DubboResult.buildSuccessResult(mapreturn);
     }
 
+
+
+    /**
+     * 获取某个表的详情信息
+     *
+     * @param
+     * @return
+     */
+    @RequestMapping(value = "/detail", method = RequestMethod.POST)
+    @ResponseBody
+    public DubboResult detail(@RequestBody TableDetailReq tableDetailReq) {
+        int id = tableDetailReq.getId();
+        String tableName = tableDetailReq.getName();
+        DataBaseDao dataBaseDao = databaseService.selectById(id);
+        String database = dataBaseDao.getDatabase();
+
+        Connection connect = jdbcSessionPlugin.getConnect(dataBaseDao);
+
+        Map<String, String> createTable = JdbcUtils.getVariables(connect,"show create table "+database+"."+tableName+"");
+        List<TableColumns> tableColumns = JdbcUtils.getTableColumns(connect,database,tableName);
+
+        TableDetailRes tableDetailRes = new TableDetailRes();
+        tableDetailRes.setCreateTable(createTable);
+        tableDetailRes.setTableColumns(tableColumns);
+
+        return DubboResult.buildSuccessResult(tableDetailRes);
+    }
 
 }
