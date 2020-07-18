@@ -1,9 +1,6 @@
 package com.neo.service.impl;
 
 import com.neo.BaseTest;
-import com.neo.entity.Article;
-import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class ArticleServiceImplTest extends BaseTest {
 

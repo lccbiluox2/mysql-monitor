@@ -16,15 +16,9 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
      * 
      */
 	  @Override  
-	  public void addViewControllers(ViewControllerRegistry registry){  
-		  	
-		  
-		  //跳转到admin登录页面
+	  public void addViewControllers(ViewControllerRegistry registry){
 	      registry.addViewController("/admin/adminLogin").setViewName("background/login"); 
-	      
-	      //跳转到添加出租信息页面
-	      registry.addViewController(MyConfig.APP_NAME_JAVA+"/rent/addRent").setViewName("background/rent/addRent"); 
-	      //跳转到添加新闻信息页面
+
 	      registry.addViewController("/newsController/toAddNewsPage").setViewName("background/news/addNews");
 	      
 	      

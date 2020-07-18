@@ -1,21 +1,12 @@
 package com.neo.filter;
 
-import java.io.File;
-import java.io.IOException;
-
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
-import javax.servlet.http.HttpServletRequest;
-
-import org.apache.log4j.Logger;
-
-import com.neo.bean.WebBean;
 import com.neo.log4j.MyLog4j;
 import com.neo.properties.MyProperties;
+import org.apache.log4j.Logger;
+
+import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 
 /*
  * 这个类是过滤类  请求处理之前过滤
@@ -25,6 +16,7 @@ public class MyFilter implements Filter {
 	
 	private Logger logger = Logger.getLogger(MyFilter.class);
 
+	@Override
 	public void destroy() {
 		// TODO Auto-generated method stub
 		
@@ -32,6 +24,7 @@ public class MyFilter implements Filter {
 	}
 
 
+	@Override
 	public void doFilter(ServletRequest srequest, ServletResponse sresponse, FilterChain filterChain)
 			throws IOException, ServletException {
 		// TODO Auto-generated method stub
@@ -61,7 +54,6 @@ public class MyFilter implements Filter {
 			MyProperties properties = new MyProperties();
 	        int num = properties.readProperties("count", filePath)+1;
 	        properties.saveProperties("count", num+"", filePath);
-			addWebClickCount();//
 		}
 		
 		//这一点是自定义日志  用来输出到logs/countTimeLogger.log   文件里  统计ip访问到哪些网页
@@ -72,18 +64,10 @@ public class MyFilter implements Filter {
 	}
 
 
+	@Override
 	public void init(FilterConfig arg0) throws ServletException {
 		// TODO Auto-generated method stub
 	}
 	
-	
-	
-	/*
-	 * 每次访问网站的访问量都添加一次
-	 * 
-	 * 
-	 */
-	public void addWebClickCount(){
-		WebBean.setWebClickCount(WebBean.getWebClickCount()+1);
-	}
+
 }
