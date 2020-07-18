@@ -5,7 +5,9 @@ MYSQL 监控工具，优化工具，各种工具为一体的java spring boot 项
 
 # 2. 代码架构
 
-![image-20200718131717024](./doc/images/image-20200718131717024.png)
+![image-20200718131717024](https://github.com/lccbiluox2/mysql-monitor/blob/master/doc/images/image-20200718131717024.png)
+
+
 
 # 3. 后端服务
 
