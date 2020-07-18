@@ -37,7 +37,11 @@ function altRows() {
  */
 function showMenu() {
     var menu = "<a href='./../tables/tables-list.html?id="+id+"'  target=\"_blank\" >表详情</a>";
-    $(".menu").html(menu)
+    $("#tableMessage").html(menu)
+
+    var explainSql =  "<a href='./../sql/explain-sql.html?id="+id+"'  target=\"_blank\" >SQL执行分析</a>";
+    $("#explainSql").html(explainSql)
+
 }
 
 /**

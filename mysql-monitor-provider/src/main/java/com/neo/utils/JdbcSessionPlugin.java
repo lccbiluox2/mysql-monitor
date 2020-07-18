@@ -39,8 +39,6 @@ public class JdbcSessionPlugin {
 
     Cache<String, Connection> cache = null;
 
-    private static String url = "jdbc:mysql://host:port/database?useUnicode=true&characterEncoding=utf-8&useSSL=true";
-
 
     public JdbcSessionPlugin() {
         super();
@@ -92,6 +90,7 @@ public class JdbcSessionPlugin {
 
         List<DatabaseAddRes> listRes = new ArrayList<>();
         for (DataBaseDao dataBaseDao : list) {
+            String url = "jdbc:mysql://host:port/database?useUnicode=true&characterEncoding=utf-8&useSSL=true";
             String name = dataBaseDao.getName();
             url = url.replace("host", dataBaseDao.getIp());
             url = url.replace("port", dataBaseDao.getPort() + "");
@@ -144,6 +143,7 @@ public class JdbcSessionPlugin {
     public Connection getConnect(DataBaseDao dataBaseDao)  {
         String name = dataBaseDao.getName();
 
+        String url = "jdbc:mysql://host:port/database?useUnicode=true&characterEncoding=utf-8&useSSL=true";
         url = url.replace("host", dataBaseDao.getIp());
         url = url.replace("port", dataBaseDao.getPort() + "");
         url = url.replace("database", dataBaseDao.getDatabase());
