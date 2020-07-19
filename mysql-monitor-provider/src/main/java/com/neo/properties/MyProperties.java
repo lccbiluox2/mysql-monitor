@@ -53,7 +53,6 @@ public class MyProperties {
 	    	while(it.hasNext()){
 	    		String strKey=it.next();
 	    		String strValue =  prop.getProperty(strKey);
-	    		System.out.println(strKey+"="+strValue);
 	    		if(strKey.equals(key) ){
 	    			return Integer.parseInt(strValue);
 	    		}else{

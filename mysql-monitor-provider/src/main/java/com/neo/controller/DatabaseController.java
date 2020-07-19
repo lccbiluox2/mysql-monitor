@@ -116,9 +116,7 @@ public class DatabaseController {
         threadsCached.putAll(threadsRunning);
         threadsCached.putAll(slowLaunchThreads);
 
-        Map<String, String> tableLock = JdbcUtils.getVariables(connect," show status like 'table_locks_immediate' ");
-        Map<String, String> tableLock1 = JdbcUtils.getVariables(connect," show status like 'table_locks_waited' ");
-        tableLock.putAll(tableLock1);
+        Map<String, String> tableLock = JdbcUtils.getVariables(connect," show status like 'table%' ");
 
         Map<String, String> variables = JdbcUtils.getALlVariable(connect);
 
