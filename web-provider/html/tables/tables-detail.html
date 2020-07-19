@@ -56,6 +56,60 @@
                 </table>
             </div>
         </div>
+
+        <div class="content-item">
+            <p style="background: #0C9A9A;width:100%;">索引信息</p>
+            <div >
+                <table class="altrowstable" id="table-index"  >
+                    <tr>
+                        <td>Table</td>
+                        <td>Non_unique</td>
+                        <td>Key_name</td>
+                        <td>Seq_in_index</td>
+                        <td>Column_name</td>
+                        <td>Collation</td>
+                        <td>Cardinality</td>
+                        <td>Sub_part</td>
+                        <td>Packed</td>
+                        <td>Null</td>
+                        <td>Index_type</td>
+                        <td>Comment</td>
+                        <td>Index_comment</td>
+                        <td>Visible</td>
+                        <td>Expression</td>
+                    </tr>
+                </table>
+            </div>
+            <span>名称解释</span>
+            <div>
+                <table class="altrowstable" >
+                    <tr>
+                        <td>Non_unique 如果索引不能包括重复词，则为0。如果可以，则为1。</td>
+                        <td>Key_name 索引的名称。</td>
+                    </tr>
+                        <td>Seq_in_index 索引中的列序列号，从1开始。</td>
+                        <td>Column_name 列名称。</td>
+                    <tr>
+                        <td>Collation 列以什么方式存储在索引中。在MySQL中，有值‘A’（升序）或NULL（无分类）。</td>
+                        <td>Cardinality 索引中唯一值的数目的估计值。通过运行ANALYZE TABLE或myisamchk -a可以更新。</br>基数根据被存储为整数的统计数据来计数，所以即使对于小型表，该值也没有必要是精确的。基数越大，当进行联合时，MySQL使用该索引的机 会就越大。</td>
+                    </tr>
+                        <td>Sub_part 如果列只是被部分地编入索引，则为被编入索引的字符的数目。如果整列被编入索引，则为NULL。</td>
+                        <td>Packed 指示关键字如何被压缩。如果没有被压缩，则为NULL。</td>
+                    <tr>
+                        <td>Null 如果列含有NULL，则含有YES。如果没有，则该列含有NO。</td>
+                        <td>Index_type 用过的索引方法（BTREE, FULLTEXT, HASH, RTREE）</td>
+                    </tr>
+                        <td>Comment</td>
+                        <td>Index_comment</td>
+                    <tr>
+                        <td>Visible</td>
+                        <td>Expression</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
     </div>
 </div>
 </body>

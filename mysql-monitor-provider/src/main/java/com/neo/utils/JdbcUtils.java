@@ -1,6 +1,7 @@
 package com.neo.utils;
 
 import com.neo.entity.dao.TableColumns;
+import com.neo.entity.dao.TableIndex;
 import com.neo.entity.response.TableDesc;
 
 import java.sql.*;
@@ -226,6 +227,55 @@ public class JdbcUtils {
                         .setComment(comment);
 
                list.add(columns);
+            }
+
+            st.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
+
+    /**
+     * 获取表索引信息
+     *
+     * @param connect
+     * @return
+     */
+    public static List<TableIndex> getTableIndex(Connection connect, String sql) {
+
+        List<TableIndex> list = new ArrayList<>();
+        try {
+            Statement st = connect.createStatement();
+            ResultSet result = st.executeQuery(sql);
+            while (result.next()) {
+                String table = result.getString("Table");
+                String nonUnique = result.getString("Non_unique");
+                String keyName = result.getString("Key_name");
+                String seqInIndex = result.getString("Seq_in_index");
+                String columnName = result.getString("Column_name");
+                String collation = result.getString("Collation");
+                String cardinality = result.getString("Cardinality");
+                String subPart = result.getString("Sub_part");
+                String packed = result.getString("Packed");
+                String nullValue = result.getString("Null");
+                String indexType = result.getString("Index_type");
+                String comment = result.getString("Comment");
+                String indexComment = result.getString("Index_comment");
+                String visible = result.getString("Visible");
+                String expression = result.getString("Expression");
+
+
+
+                TableIndex index = new TableIndex();
+                index.setTable(table).setNonUnique(nonUnique).setKeyName(keyName).setSeqInIndex(seqInIndex)
+                        .setColumnName(columnName).setCollation(collation)
+                        .setCardinality(cardinality).setSubPart(subPart)
+                        .setPacked(packed).setNullValue(nullValue)
+                        .setComment(comment).setIndexType(indexType).setIndexComment(indexComment)
+                        .setVisible(visible).setExpression(expression);
+
+                list.add(index);
             }
 
             st.close();

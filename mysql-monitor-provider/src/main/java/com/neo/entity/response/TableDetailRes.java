@@ -1,6 +1,7 @@
 package com.neo.entity.response;
 
 import com.neo.entity.dao.TableColumns;
+import com.neo.entity.dao.TableIndex;
 import lombok.Data;
 
 import java.util.List;
@@ -17,4 +18,9 @@ public class TableDetailRes {
      * 表列的详情信息
      */
     private List<TableColumns> tableColumns;
+
+    /**
+     * 表索引信息
+     */
+    private List<TableIndex> tableIndex;
 }

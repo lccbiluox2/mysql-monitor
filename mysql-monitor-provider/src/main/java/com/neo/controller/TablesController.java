@@ -3,6 +3,7 @@ package com.neo.controller;
 import com.neo.common.DubboResult;
 import com.neo.entity.dao.DataBaseDao;
 import com.neo.entity.dao.TableColumns;
+import com.neo.entity.dao.TableIndex;
 import com.neo.entity.req.TableDetailReq;
 import com.neo.entity.response.*;
 import com.neo.service.DatabaseService;
@@ -89,9 +90,13 @@ public class TablesController {
         Map<String, String> createTable = JdbcUtils.getVariables(connect,"show create table "+database+"."+tableName+"");
         List<TableColumns> tableColumns = JdbcUtils.getTableColumns(connect,database,tableName);
 
+        List<TableIndex> tableIndex = JdbcUtils.getTableIndex(connect,"show index from "+database+"."+tableName+"");
+
+
         TableDetailRes tableDetailRes = new TableDetailRes();
         tableDetailRes.setCreateTable(createTable);
         tableDetailRes.setTableColumns(tableColumns);
+        tableDetailRes.setTableIndex(tableIndex);
 
         return DubboResult.buildSuccessResult(tableDetailRes);
     }

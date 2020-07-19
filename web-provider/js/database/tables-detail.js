@@ -49,7 +49,9 @@ function showTableDetail() {
                         if (bjectName == "tableColumns") {
                             showTableColumns(objectValues);
                         }
-
+                        if (bjectName == "tableIndex") {
+                            showTableIndex(objectValues);
+                        }
                         altRows();
                     });
                 }
@@ -62,6 +64,33 @@ function showTableDetail() {
 
 }
 
+/**
+ * 显示表索引信息
+ */
+function showTableIndex(objectValues) {
+    var itemData = "";
+    $.each(objectValues, function (bjectName, objectValues) {
+        itemData += "<tr>";
+        itemData += "<td>" + objectValues.table + "</td>";
+        itemData += "<td>" + objectValues.nonUnique + "</td>";
+        itemData += "<td>" + objectValues.keyName + "</td>";
+        itemData += "<td>" + objectValues.seqInIndex + "</td>";
+        itemData += "<td>" + objectValues.columnName + "</td>";
+        itemData += "<td>" + objectValues.collation + "</td>";
+        itemData += "<td>" + objectValues.cardinality + "</td>";
+        itemData += "<td>" + objectValues.subPart + "</td>";
+        itemData += "<td>" + objectValues.packed + "</td>";
+        itemData += "<td>" + objectValues.nullValue + "</td>";
+        itemData += "<td>" + objectValues.indexType + "</td>";
+        itemData += "<td>" + objectValues.comment + "</td>";
+        itemData += "<td>" + objectValues.indexComment + "</td>";
+        itemData += "<td>" + objectValues.visible + "</td>";
+        itemData += "<td>" + objectValues.expression + "</td>";
+        itemData += "</tr>";
+
+    });
+    $("#table-index").append(itemData);
+}
 
 /**
  * 显示表列的详情信息
@@ -106,7 +135,7 @@ function showCreateTable(objectValues) {
         $("#tableName").append(bjectName);
 
         // 加入代码符号
-        objectValues = "```\r\n"+objectValues+"```\r\n";
+        objectValues = "```\r\n"+objectValues+"\r\n```\r\n";
         var markdownCode = marked(objectValues, {breaks: true});
         $("#tableCreate").html(markdownCode);
         // 重新渲染页面
