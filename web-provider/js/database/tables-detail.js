@@ -14,11 +14,26 @@ $(document).ready(function () {
     tableName = getUrlParam("name");
 
     /**
+     * 显示菜单
+     */
+    showMenu();
+
+    /**
      * 显示表详情
      */
     showTableDetail();
 
 });
+
+
+/**
+ * 显示菜单
+ */
+function showMenu() {
+    var menu = "<a href='./../tables/tables-analyse.html?databaseId="+id+"&tableName="+tableName+"'  target=\"_blank\" >字段分析</a>";
+    $("#tableFieldAnalyse").html(menu)
+
+}
 
 /**
  * 显示建表语句

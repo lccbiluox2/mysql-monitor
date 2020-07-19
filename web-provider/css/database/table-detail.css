@@ -18,6 +18,40 @@ body {
     text-align: center;
 }
 
+
+#top{
+    position:relative;
+    float:left;
+    height:40px;
+    width:100%;
+    background-color:black;
+}
+.top_left{
+    position:relative;
+    float:left;
+    height:40px;
+    width:30px;
+
+}
+.item1{
+    position:relative;
+    float:left;
+    height:40px;
+    width:8%;
+    color:#F00;
+    text-align:center;
+    line-height:50px;
+    display:block;
+}
+.item1 a{
+    color:#FFF;
+}
+.item1:hover{
+    background-color:green;
+}
+
+
+
 #content {
     width: 92%;
     margin-top: 8px;
