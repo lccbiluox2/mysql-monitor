@@ -98,9 +98,13 @@ function formatCode() {
  */
 function analyseSql() {
     var sqlText = $('#sql-text').val();
+    var database=$("#database-list").val(); //获取Select选择的Value
+    var count=$("#count").val(); //获取Select选择的Value
 
     var param = {
-        'sql': sqlText
+        'sql': sqlText,
+        'database': database,
+        'count': count
     };
 
     console.log(JSON.stringify(param))

@@ -45,7 +45,7 @@ public class TablesController {
         dataBaseDao = databaseService.selectById(id);
         String database = dataBaseDao.getDatabase();
         Connection connect = jdbcSessionPlugin.getConnect(dataBaseDao);
-        List<String> tables = JdbcUtils.getTables(connect,"show tables in "+database );
+        List<String> tables = JdbcUtils.getTables(connect,"show tables in `"+database+"`" );
 
         Map<String, TableDesc> map = JdbcUtils.getTableDesc(connect, database, tables);
         Collection<TableDesc> collection = map.values();
@@ -87,10 +87,10 @@ public class TablesController {
 
         Connection connect = jdbcSessionPlugin.getConnect(dataBaseDao);
 
-        Map<String, String> createTable = JdbcUtils.getVariables(connect,"show create table "+database+"."+tableName+"");
+        Map<String, String> createTable = JdbcUtils.getVariables(connect,"show create table `"+database+"`.`"+tableName+"`");
         List<TableColumns> tableColumns = JdbcUtils.getTableColumns(connect,database,tableName);
 
-        List<TableIndex> tableIndex = JdbcUtils.getTableIndex(connect,"show index from "+database+"."+tableName+"");
+        List<TableIndex> tableIndex = JdbcUtils.getTableIndex(connect,"show index from `"+database+"`.`"+tableName+"`");
 
 
         TableDetailRes tableDetailRes = new TableDetailRes();

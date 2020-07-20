@@ -135,7 +135,7 @@ public class JdbcUtils {
             sqlIn = sqlIn + "'" + table + "',";
         }
         sqlIn = sqlIn.substring(0, sqlIn.lastIndexOf(","));
-        String sql = "show table status from  " + database + "   where name in (" + sqlIn + ")";
+        String sql = "show table status from  `" + database + "`   where name in (" + sqlIn + ")";
 
         Map<String, TableDesc> map = new HashMap<>();
         try {
@@ -203,7 +203,7 @@ public class JdbcUtils {
      */
     public static List<TableColumns> getTableColumns(Connection connect, String database, String tableName) {
 
-        String sql = "show full columns from "+database+"."+tableName;
+        String sql = "show full columns from `"+database+"`.`"+tableName+"`";
         List<TableColumns> list = new ArrayList<>();
         try {
             Statement st = connect.createStatement();
@@ -262,9 +262,15 @@ public class JdbcUtils {
                 String indexType = result.getString("Index_type");
                 String comment = result.getString("Comment");
                 String indexComment = result.getString("Index_comment");
-                String visible = result.getString("Visible");
-                String expression = result.getString("Expression");
+                String visible = "";
+                if(isExistColumn(result,"Visible")){
+                    visible = result.getString("Visible");
+                }
 
+                String expression = "";
+                if(isExistColumn(result,"Expression")){
+                    expression = result.getString("Expression");
+                }
 
 
                 TableIndex index = new TableIndex();
@@ -284,4 +290,25 @@ public class JdbcUtils {
         }
         return list;
     }
+
+
+    /**
+     * 判断查询结果集中是否存在某列
+     * @param rs 查询结果集
+     * @param columnName 列名
+     * @return true 存在; false 不存咋
+     */
+    public static boolean isExistColumn(ResultSet rs, String columnName) {
+        try {
+            if (rs.findColumn(columnName) > 0 ) {
+                return true;
+            }
+        }
+        catch (SQLException e) {
+            return false;
+        }
+
+        return false;
+    }
+
 }

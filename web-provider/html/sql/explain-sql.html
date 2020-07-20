@@ -33,7 +33,7 @@
                         <select id="database-list"></select>
                     </td>
                     <td><span>执行次数:</span>
-                        <input type="text"  value="10">
+                        <input type="text" id="count" value="10">
                     </td>
                 </tr>
             </table>
@@ -46,8 +46,8 @@
             <div contenteditable="true" id="sql-show" ></div>
         </div>
         <div class="content-item variables-list">
-            <input type="submit" onclick="formatCode()" value="格式化">
-            <input type="submit" onclick="analyseSql()" value="分析">
+            <input type="button" onclick="formatCode()" value="格式化">
+            <input type="button" onclick="analyseSql()" value="分析">
         </div>
 
     </div>
