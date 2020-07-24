@@ -8,6 +8,7 @@ import com.neo.entity.response.DatabaseAddRes;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.extern.slf4j.Slf4j;
+import org.checkerframework.checker.nullness.qual.Nullable;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 
@@ -74,7 +75,7 @@ public class JdbcSessionPlugin {
             conn = dataSource.getConnection();
             cache.put(connectMessage.getName(), conn);
         } catch (Exception e) {
-            e.printStackTrace();
+            log.info("连接异常:{}",connectMessage);
         }
         return conn;
     }
@@ -90,6 +91,19 @@ public class JdbcSessionPlugin {
 
         List<DatabaseAddRes> listRes = new ArrayList<>();
         for (DataBaseDao dataBaseDao : list) {
+
+            DatabaseAddRes databaseAddRes = new DatabaseAddRes();
+            BeanUtils.copyProperties(dataBaseDao, databaseAddRes);
+
+            String ip = dataBaseDao.getIp();
+            Integer port = dataBaseDao.getPort();
+            boolean connected = PingUtils.isHostConnectable(ip, port);
+            if(!connected){
+                databaseAddRes.setStatus("false");
+                listRes.add(databaseAddRes);
+                continue;
+            }
+
             String url = "jdbc:mysql://host:port/database?useUnicode=true&characterEncoding=utf-8&useSSL=true";
             String name = dataBaseDao.getName();
             url = url.replace("host", dataBaseDao.getIp());
@@ -102,30 +116,22 @@ public class JdbcSessionPlugin {
             connectMessage.setPassword(dataBaseDao.getPassword());
             connectMessage.setName(name);
 
-            DatabaseAddRes databaseAddRes = new DatabaseAddRes();
-            BeanUtils.copyProperties(dataBaseDao, databaseAddRes);
 
-            Object connect = null;
-            try {
-                connect = cache.get(name, new Callable<Connection>() {
-                    @Override
-                    public Connection call() throws Exception {
-                        return getConnection(connectMessage);
-                    }
-                });
-            } catch (ExecutionException e) {
-                e.printStackTrace();
+
+            @Nullable Connection connect = cache.getIfPresent(name);
+            if (connect == null) {
+                connect = getConnection(connectMessage);
             }
             if (connect == null) {
-                getConnection(connectMessage);
+                databaseAddRes.setStatus("false");
+                listRes.add(databaseAddRes);
+                continue;
             }
             boolean flag = false;
-            if (connect != null) {
-                try {
-                    flag = ((Connection) connect).isValid(6000);
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
+            try {
+                flag = ((Connection) connect).isValid(6000);
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
 
             // 设置连接是否成功
@@ -140,7 +146,7 @@ public class JdbcSessionPlugin {
         return listRes;
     }
 
-    public Connection getConnect(DataBaseDao dataBaseDao)  {
+    public Connection getConnect(DataBaseDao dataBaseDao) {
         String name = dataBaseDao.getName();
 
         String url = "jdbc:mysql://host:port/database?useUnicode=true&characterEncoding=utf-8&useSSL=true";
@@ -168,7 +174,6 @@ public class JdbcSessionPlugin {
         }
 
         return connect;
-
 
 
     }
